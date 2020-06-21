@@ -1,0 +1,456 @@
+.,English
+quest.name,Losing my religion, p.1
+quest.description,Father Mateo just arrived in Arkham to be the new priest of Bayfriar's church. After his first mass, the Bechman family invites him and some of their closest friends for a welcome dinner. As the night advances, curious events happens in the house. You have to discover the unsettling secret surrounding the Bechmans. Will your faith be strong enough to survive tonight?
+quest.synopsys,3-part quest starring Father Mateo in an inner quest for his faith. Part 1: The Welcome Dinner.
+quest.authors,Andre Gregio (eVader)
+quest.authors_short,Andre Gregio (eVader)
+TokenSearch1_T1.button1,{action} Investigate
+EventRemoveRichardB_T1.text,"As Richard leaves stomping and mumbling out loud, Grace says: <i>""Please, don't think it is about you. Richard is not fully recovered yet.</i>""\n\nSet Richard's token aside the board.\n\nHer face is now very serious. She starts to organize the tableware. The dinner is over."
+TokenSearch2_T3.button1,{action} Investigate
+TokenSearch_T2.text,The paper on the top of the pile resembles a medical prescription. 
+EventTalkGraceQ1Q2_T1.button3,Cancel
+EventCrazyRichard_T1.text,"Richard hits the table. Everybody suddenly stop talking and look at him. He stares the ceiling and raises his voice:\n\n""<i>Won't you ever be quiet? Even for a minute?</i>""\n\nHe runs out of the dining room.\n\nSet Richard's person token aside the board."
+EventTalkRichard1_2_T1.text,"""<i>I can't bear it anymore. I'll teach those rats a lesson right now</i>.""\n\nRichard stands up and walks away from the table. He leaves the dining room door opened. The guests try to pretend nothing happened, but Grace is visibly embarassed.\n\nSet Richard's person token aside the board.\nSubstitute the explore token for a sight token as indicated."
+EventDoor1_UNLOCKED_T1.text,This door connects the kitchen with the house's main hall. You arrived from this door.
+SpawnPazuzu_T8.button1,Continue
+EventInitialTile.button1,Continue
+UIText.uitext,Today is a great day for Arkham. Father Mateo just arrived in town to be the new priest of Bayfriar's church, in the French Hill neighborhood. In his first mass, he opened his heart and showed himself a man of unshakable faith, charity, and forgiveness. What a homily!\n\n The Bechman family is one of the main benefactors of Arkham. They are a family of faith, moral, and good deeds, and serve their church and community. Everybody leans on them. \n\nTo celebrate Father Mateo arrival, Grace Bechman is going to host a dinner tonight. She invited some members of the community, and the holy man himself, of course.\n\nIf you are playing solo, you must choose Father Mateo. If there are two or three players, one of them should play as Father Mateo.
+EventPlaceGrace_T1.button1,Continue
+EventPlaceRichard_T1.text,Place Richard Bechman at the table.
+EventPlaceRichard_T1.button1,Continue
+EventPlaceInvestigators_T1.text,Place the investigators at the table. The dinner will commence right now.
+EventPlaceInvestigators_T1.button1,Continue
+EventPlaceSearch1_T1.button1,Continue
+EventRemoveExplore1_T1.button1,Continue
+EventRemoveExplore2_T1.button1,Continue
+EventPlaceExplore1_T1.button1,Continue
+TokenSearch1_T1.text,A kitchen cabinet with a drawer barely pulled.
+TokenExplore1_T1.button1,Continue
+EventPlaceExplore2_T1.text,Place an explore token as indicated.
+EventRemoveSearch1_T1.text,You open the cabinet drawer. It has several kitchen utensils inside. Despite you worry about stealing from your hosts, the safety of having something to protect yourself at hand makes you feel better.\n\nReceive the item {c:QItemCommonKnife} and remove this search token.
+EventPlaceGraceAtKitchen_T1.text,"Move Grace Bechman's person token from the dining room to the kitchen as indicated.\n\n""<i>Everything is overwhelming here! I keep myself worried about Richard all the time. Mildred, my youngest daughter is also behaving oddly. My other daughter, Gwendolyn, never writes to me to tell me about the university.</i>""\n\nShe is very embarassed by her husband's attitude in front of her guests. Grace silently cleans the dishes.\n\nGain 1 clue {clue}."
+EventPrescriptionPassed_T2.text,You discover that Mr. Bechman is taking five types of distinct controlled medicine, including one to regulate his humor. \n\nGain 1 clue {clue} and receive the unique item {c:QItemEvidence1_T2}. \n\nRemove this search token.
+EventPlaceExplore2_T1.button1,Continue
+EventPlaceExplore1_T1.text,Place an explore token as indicated.
+TokenExplore2_T1.button1,Continue
+EventDoor2_LOCKED_T1.text,It is not polite to leave the table in the middle of the dinner to snoop around!
+EventPlaceSearch_T2.text,A small pile of papers is organized on the hall desk. \n\nPlace a search token as indicated.
+EventPlaceSearch_T2.button1,Continue
+EventReadPrescription_T2.button1,Continue
+EventPrescriptionPassed_T2.button1,Continue
+EventPrescritionFailed_T2.text,You see nothing but an incomprehensible caligraphy. Frustrated, you let the prescription as you found it...
+EventPrescritionFailed_T2.button1,Continue
+EventTalkGrace1_T1.button1,Is she feeling well?
+EventTalkGrace1_1_T1.text,She is acting weird in the last few weeks. I really don't want to bother you with that matter tonight.
+EventTalkGrace1_T1.button2,Cancel
+EventTalkGrace1_T1.text,Thank you, Father. I am really sorry that our daughter did not leave her room to join us tonight. She would be pleased by your visit. Maybe tomorrow morning...
+EventTalkGrace1_1_T1.button1,Gain 1 {clue}
+EventTalkGrace2_T1.text,I have two daughters: Mildred, the younger one, is not feeling well. She is in her bedroom resting. The other, Gwen, spends the weekdays at University of Miskatonik.
+EventTalkGrace2_T1.button1,{action} Is Mildred sick?
+EventTalkGrace2_T1.button2,{action} Interesting! What is Gwendolyn's major?
+EventTalkGrace2_1_T1.text,She is acting really weird. I found several bruises on her chest and legs, she is not eating properly. I don't know what to do. She doesn't talk to me about what is happening either.
+EventTalkGrace2_1_T1.button1,Gain 1 {clue}
+EventTalkGrace2_2_T1.text,She studies ancient civilizations and their cultures.
+EventTalkGrace2_2_T1.button1,Gain 1 {clue}.
+EventTalkGraceQ1Q2_T1.button1,{action} I really appreciate the dinner. You have a lovely family!
+EventTalkGrace3_T1.text,He is not himself anymore since the accident...
+EventTalkGrace3_T1.button1,Gain 1 {clue}.
+EventTalkRichard1_T1.text,"The man seemed very upset with your comment. \n\n""<i>Why don't you eat in silence?</i>"", he questions you."
+EventTalkRichard1_T1.button1,"""I am sorry, I did not mean to offend""."
+EventTalkRichard1_T1.button2,Eat in silence.
+EventTalkRichard1_1_T1.text,"""<i>You are still talking, you can't stop!</i>"", the man shouts. \n""<i>You are just like the voices in my head!!!</i>""\n\nRichard quickly stands up and knock his chair down right before leaving the dining room. "
+EventTalkRichard1_1_T1.button1,Continue
+EventPlaceGrace_T1.text,Place Grace Bechman at the dinner table. 
+EventRemoveExplore1_T1.text,The entry hall is sober. You came into the house by the large door at your left. There is a sideboard desk, a red leather chair, a marble statue, and pots of ferns over Greek marble columns.\n\nPlace the {c:TileManorEntry} tile and remove this explore token.\n\nYou may now move 1 space onto the revealed tile.
+EventPlaceSearch1_T3.text,In the shadows, you see the shape of what seems to be a wash tank.\n\nPlace a search token as indicated.
+EventPlaceSearch1_T3.button1,Continue
+TokenSearch1_T3.button1,{action} Investigate
+EventRemoveSearch1_T3.button2,Failed
+TokenSearch2_T3.text,There are big fertilizer sacks and gardening tools in the deposit's corner.
+EventWashtankPassed_T3.text,When you get closer, the smell is nauseating. You now see a bloody mess of fur and bone fragments. Horrorified, you realize that someone, or something, vomited the remains of a rat! \n\nSuffer 1 facedown horror and gain 1 clue {clue}.\n\nRemove this search token.   
+EventWashtankPassed_T3.button1,Continue
+EventWashtankFailed_T3.text,Disgusted by the strong smell of something rotten, you see what seems to be a small pool of blood and vomit. \n\nRemove this search token and become <i>stunned</i>.
+EventWashtankFailed_T3.button1,Continue
+EventPlaceSearch2_T3.text,An open door leads to a small deposit.\n\nPlace a search token here.
+EventPlaceSearch2_T3.button1,Continue
+EventRemoveSearch2_T3.text,A shovel lies over the fertilizer sacks!  It may be used to defend yourself if the noise you've heard means that a smuggler got inside the house. \n\nIf you decide to take it with you, receive the item {c:QItemShovel_T3}. Otherwise, let this item's card on this space.\n\nRemove this search token.
+EventRemoveSearch2_T3.button1,Continue
+EventPlaceDarkness_T3.text,Place darkness on each space of this tile.\n\nYou may now move 1 space to enter this room.
+EventPlaceDarkness_T3.button1,Continue
+EventRemoveRichardB_T1.button1,Continue
+EventReadPrescription_T2.text,The prescription has the name of Mr. Bechman typed in the header, with yesterday's date. The writing is very confuse. Maybe if you pay really attention you could decipher what the doctor's prescribed. You attempt to read the prescription using your {observation}.
+TokenGraceKitchen_T1.button1,Continue
+EventTalkToGraceAtKitchen1_T1.text,Grace is visibly upset. She is now sobbing.
+EventPlaceSearch2_T1.button1,Continue
+TokenLantern_T1.text,An unlit lantern lies over one barrel in the room corner. 
+EventRemoveSearch2_T1.text,The lantern is filled with kerosene. It can be used as a light source.\n\nReceive the item {c:QItemLantern_T1} and remove this search token.
+EventPlaceSearch1_T1.text,The door to the kitchen is open. You saw fine cupboards, cabinets, and appliances. \n\nPlace a search token on the kitchen cabinet as indicated. Its drawer is not completely closed.
+EventPlaceSearch2_T1.text,The door to the pantry room is also opened. Non-perishable food, cleaning tools and other utilities divide this space. One of the barrels has something on it.\n\nPlace a search token as indicated.
+EventRemoveSearch2_T1.button1,Continue
+EventTalkRichard_T1.button1,{action} Are they common in this part of the city?
+SpawnPazuzu_T8.text,Place a hound of Tindalos in the indicated space and remove the dog token from the board. \n\nThis was Pazuzu, now possessed by an evil entity.\n\nIt grabs the metal box with the mouth to protect the object.
+EventRemoveBechmansFromKitchen_T1.text,"Grace looks numb, she must be very tired. She points to your room and wishes you have a good night of sleep.\n\n""<i>Please, get some rest. I left the room ready for you.</i>""\n\nGrace disappears through the corridor at right.\n\nRemove this search token and all persons tokens from the board."
+EventRemoveBechmansFromKitchen_T1.button1,Continue
+TokenSight_T2.button1,Reveal
+EventPlaceDarkness_T6.button1,Continue
+EventPlaceExplore2_T6.text,Another door that may lead to a room. Place an explore token as indicated.
+EventPlaceExplore2_T6.button1,Continue
+TokenExplore2_T6.text,A bedroom's door.
+TokenMasterBedroomDoor_T6.text,Place the door token as indicated.
+TokenMasterBedroomDoor_T6.button1,Continue
+EventPlaceExplore1_T6.text,A door. You barely see in the dark, but you can realize its frame is fancier. This door must lead to the master bedroom. \n\nPlace an explore token as indicated.
+EventPlaceExplore1_T6.button1,Continue
+EventPlaceWall_T6.button1,Continue
+EventRemoveCouple_T7.text,Grace runs through the hall and stands in front of her daughters' room. She looks at the door, motionless, then turn back to you and cry in despair:\n\n<i> Hurry up, I am afraid for my little daughter! </i>\n\nShe is clearly in panic, sobbing and trembling uncontrollably while paralyzed at Mildred's door.\n\nMove Grace's person token to the front of the other door at the {c:TileBedroomsHall} tile as indicated.\n\nAny investigators in the master bedroom should be moved to Grace's space.
+EventPlaceWall2_T6.text,Place a wall as indicated.
+EventGraceB_T8.text,Grace Bechman slowly enters in the room, horrified. She passes out, mumbling indistinguishable words while laid down in the floor. \n\nMove Grace token as indicated.
+TokenSearch2_T8.text,It looks like a metal box.
+EventRemoveSearch2_T8.text,You get on your knees to try to reach the box. Suddenly, a big dog comes out from under the bed. It is Pazuzu, Mildred's Bullmastiff.\n\nPlace the Dog token in front of the bed. It stands between you and the untouched box.\n\nSet the search token aside. The box is unreachable right now.
+EventTileUpstairs_NOKEY_T5.button1,Continue
+EventPlaceDevil_T9.text,You frighten in the presence of this unnameable creature. \n\nOnce, it was the prince of light, the most beautiful of God's angels. Its daring presumption led him to fall.\n\nYou search for your cross, but when you touch it, you feel nothing. Are you losing your religion? Not now, when you need to fight the devil itself!
+EventRemoveSearch1_T9.button1,Continue
+EventPlaceSearch1_T9.text,As you look inside the attic, you smell a nauseating mixture of blood and rotting flesh. \n\nPlace a search token as indicated.\n\nYou may now move 1 space onto the revealed tile.
+TokenSearch1_T9.button1,{action} Investigate
+EventPlaceInteract_T9.text,When you look at it, you realize the ritual is already happening! The summoning will be complete if you do not stop it on time.
+TokenSearch1_T9.text,A pack of sorted candles, a vial of blood and a couple of dead rats inside a plastic bag.
+EventPlaceSearch1_T9.button1,Continue
+EventTileUpstairs_NOKEY_T5.text,You see a set of stairs going upwards. The steps are covered with red velvet. The strange sounds you have been hearing are louder. \n\nPlace the {c:TileUpstairs} tile.
+EventPlaceSight_T2.button1,Continue
+TokenSearch1_T6.button1,{action} Investigate
+EventPlaceDarkness_T6.text,It is really difficult to see anything in the hall.\n\nPlace darkness in all spaces of this tile.
+EventRemoveSearch1_T6.text,You carefully search for the fallen lamp within the debris, hoping it is not broken ({agility}; 1).\n\nIf you pass, turn the lamp on (remove all darkness from this tile) and stay focused; If you fail, you stumble and drop the lamp. It is broken. You hope nobody hear your mess. Suffer 1 facedown damage and 1 facedown horror (negated by {will}).\n\nRemove this search token.
+TokenSearch1_T6.text,Mad Richard tripped on the table and managed to drop everything over it. The objects are spread on the floor. Maybe you find something useful.
+EventRemoveSearch1_T6.button1,Continue
+EventPlaceSearch1_T6.text,Your eyes are getting used to the dark. You start to see some shapes. \n\nPlace a search token as indicated.
+EventPlaceSearch1_T6.button1,Continue
+EventRemoveSearch1_T9.text,You vaguely remember that, but you sure saw it in that ancient book from the Vatican's library. These components may be used in a demon summoning ritual!\n\nReceive the item {c:QItemRitualComp_T9}. It can be useful for a further investigation.\n\nYou hear a noise behind the boxes at your right...
+EventRemoveSearch1_T3.text,There is a small pool of an indistinguished liquid near the drain. You get closer to try to see what it is ({observation}; 2).
+EventRemoveSearch1_T1.button1,Continue
+EventPlaceGraceAtKitchen_T1.button1,Continue
+EventTalkGraceQ1Q2_T1.button2,{action} You have a nice house. It seems newer than the other houses here at French Hill.
+EventTalkGraceQ1Q2_T1.text,"""<i>Welcome to Arkham, Father Mateo! We are very glad to have you in our community and, mainly, in our house for dinner. Hope you appreciate tonight's company.</i>""\n\nGrace reaches your hand and politely ask if you would make a little pray before eating. Father Mateo thanks Lord for the meal and bless everyone at the table.\n\nPeople start eating and chatting. Everyone seems happy."
+EventTalkGraceQ2_USED_T1.text,"""<i>Please, you are so kind. This house is as old as the others in the neighborhood. It is in Richard's family for almost two centuries. We renovated it recently, but I feel that the house creaps and pops even more than before.</i>""\n\nGain 1 clue {clue}."
+EventTalkGraceQ1_T1.button1,{action} I really appreciate the dinner. You have a lovely family!
+EventTalkGraceQ2_T1.button1,{action} You have a nice house. It seems newer than the other houses here at French Hill.
+EventTalkGraceQ1_USED_T1.text,"""<i>Thank you so much. I am really sorry that our daughter Mildred did not leave her room and join us tonight. She usually would be pleased by your visit, but she is acting very strange for the past few weeks. Well, she is only sixteen, and she misses her sister Gwendolyn. They are extremely close to each other.</i>""\n\nGrace continues: ""<i>Mildred is not feeling well today. I realized she has bruises all over her arms, but she didn't comment anything about it. She tried to hide it with a sweater, but I saw them! Since Gwendolyne started a junior research project at Miskatonic University and therefore spends the weekdays there, Mildred is heartbroken...</i>""\n\nGain 1 clue {clue}."
+EventTalkGraceQ1_USED_T1.button1,Continue
+EventTalkGraceQ2_USED_T1.button1,Continue
+EventTalkGraceQ1_T1.button2,Cancel
+EventTalkGraceQ2_T1.button2,Cancel
+EventTalkGrace_NoOptions_T1.text,"""<i>Did you enjoy the chicken seasoning? It came from Richard's great grandmother recipe book. I hide it safely, it's a family secret!</i>"" Grace winks.\n\nShe is about to serve the dessert."
+EventTalkGrace_NoOptions_T1.button1,Continue
+TokenLantern_T1.button1,{action} Investigate
+TokenSearch1_T3.text,A wash tank with a smelly small pool of something inside.
+EventRemoveSearch1_T3.button1,Passed!
+EventTalkGraceQ1_T1.text,Grace is eating and chatting joyfully.
+EventTalkGraceQ2_T1.text,Grace looks joyfull. She is very chatty tonight.
+TokenGraceB1_T1.button1,Continue
+EventCrazyRichard_T1.button1,Continue
+TokenRichardB_T1.button1,Continue
+EventRemoveExplore2_T1.text,The door opens with a long creak. The basement is completely dark. You are unable to see whether there is a switch at reach to turn the lights on or not. As you enter in the room, you realize you must watch your steps: old wood stairs go down to the basement. \n\nPlace the {c:TileBasement} as indicated and remove this explore token.\n\nYou may now move 1 space onto the revealed tile.
+EventTalkRichard_T1.text,<i>Rats... I've been hearing goddamned rats all night long.</i> \nRichard cannot stop mumbling...
+EventTalkRichard_T1.button2,Cancel
+EventTalkRichard1_2_T1.button1,Continue
+TokenSight1_T1.button1,Reveal
+EventRemoveSight1_T1.text,The entry hall is sober. You came in the house by the large door at the left. There is a sideboard desk, a red leather chair, a marble statue, and pots of ferns over Greek marble columns.\n\nPlace the {c:TileManorEntry} tile and remove this sight token.
+TokenSight1_T1.text,An investigator on the same space of this token in the dining room may reveal the adjacent tile.
+EventRemoveSight1_T1.button1,Continue
+EventTalkRichard_NoOptions_T1.text,"""<i>Noisy rats! Nobody hears them?</i>""\n\nThe man murmurs to himself."
+EventTalkRichard_NoOptions_T1.button1,Continue
+EventDoor1_LOCKED_T1.button1,Continue
+EventDoor2_LOCKED_T1.button1,Continue
+EventDoor1_LOCKED_T1.text,It would be very rude of you to leave the dinner right now...
+EventDoor1_UNLOCKED_T1.button1,{action} Explore
+EventDoor2_UNLOCKED_T1.text,An ordinary door. It must lead to the basement or outside the house.
+EventDoor2_UNLOCKED_T1.button1,{action} Explore
+EventPlaceExplore1_T2.button1,Continue
+EventPlaceExplore1_T2.text,Place an explore token as indicated.
+TokenExplore1_T2.text,This door leads to the guest room.
+TokenExplore1_T2.button1,{action} Explore
+EventPlaceExplore2_T2.button1,Continue
+EventRemoveExplore1_T2.text,You open the door to the room that Grace has prepared for her guests. It is simple, yet faultlessly clean and comfortable. The bed sheets smell very good. You think you could use some sleep hours to digest what just happened. \n\nPlace the {c:TileGuestRoom} tile as indicated and remove this explore token.
+EventPlaceExplore2_T2.text,Place an explore token as indicated.
+EventRemoveSight_T2.text,A hall leading to the other house's rooms reveals in front of you. It has a magnificent hardwood floor. \n\nPlace the {c:TileBedroomsHall} tile and remove this sight token.
+EventPlaceWall_T6.text,Place the wall token as indicated.
+EventRemoveSight_T2.button1,Continue
+EventPlaceWall2_T6.button1,Continue
+EventMythos1.text,"The lights turn off. Everyone around the table screams, as the table starts trembling. There cupboard abruptly opens and, suddenly, all dishes and glasses are launched towards the guests and floor. Each investigator in the kitchen, dining room or pantry room suffers 1 damage (negated by {agility}).\n\nThe lights turn on again. Nobody understood if this was a prank or a supernatural event. Grace says ""<i>Calm down, friends. It should be a small earthquake. I am just about to serve the dessert!</i>"". \n\nNo one never heard about earthquakes in Arkham. Grace seems to be pretending that nothing unusual happened. You become suspicious that the dinner invitation has other agenda than just welcoming the new priest...\n\nEach investigator receives 1 clue {clue}."
+EventForceDoor_PASSED_T2.button1,Continue
+EventMythos5Deadly.text,An unpleseant smell of sulfur invades the air. A thunder rumbles so strong you almost think it is inside the house. Even the door leading upstairs fell onto the floor.\n\nAll the signs were crystal clear, but you didn't want to believe. A demon is here... You paralyze with fear.\n\nSuffer 2 horrors and become stunned.
+TokenSight_T2.text,It is dark and completely quiet across the hall. Everyone should be sleeping. \n\nAn investigator in the {c:TileManorEntry} may reveal the adjacent tile.
+EventKeyNotFound_T2.button1,Continue
+TokenExplore2_T2.button1,Continue
+EventKeyFound_T2.text,The player with the item Brass Keys may open this door.
+EventKeyNotFound_T2.text,The noises get louder. Maybe you can try to force this door to open using your {strength}.
+EventKeyFound_T2.button1,Explore
+EventTileUpstairs_KEY_T5.text,You see a set of stairs going upwards. The steps are covered with red velvet. The strange sounds you have been hearing are louder. \n\nPlace the {c:TileUpstairs} tile and remove this explore token.
+EventTileUpstairs_KEY_T5.button1,Continue
+EventPlaceTokens_KEY_T5.button1,Continue
+EventPlaceTokens_KEY_T5.text,On the top of the stairs, there is a door with some light coming out of its cracks. The steps are all splattered with something you cannot figure out from this distance.\n\nPlace the explore token as indicated.
+TokenSearch1_T5.button1,{action} Investigate
+TokenSearch1_T5.text,Splatters of a viscous dark liquid.
+EventRemoveSearch1_T5.text,You look closer ({observation}; 1). \n\nIf you pass, you realize it is fresh blood. Suffer 1 facedown horror (negated by {will}); if you fail, you feel dizzy. Suffer 1 horror (negated by {will}-1) and become dazed.\n\nGain 1 clue {clue}.
+EventRemoveSearch1_T5.button1,Continue
+TokenExplore1_T5.text,The noises get louder behind the door. It's a foreign chanting! The floor rumbles and the lights start to flicker.
+TokenExplore1_T5.button1,{action} Explore
+EventRemoveExplore1_KEY_T5.text,As you enter, you feel a shiver all over your spine as you sense a threatening presence.\n\nPlace the {c:TileAttic} tile and remove this explore token.
+EventRemoveExplore1_KEY_T5.button1,Continue
+EventPlaceFaintMildredAndRitual_T9.button1,Continue
+EventPlaceFaintMildredAndRitual_T9.text,The vision of what just happened makes you feel weak. A demonic ritual was completed here, and Mildred had been used as a venue to summon an evil force...\n\nPlace a search token and Mildred's person token as indicated.
+EventPlaceSight_T2.text,Place a sight token as indicated.
+EventRemoveExplore1_T2.button1,Continue
+EventPlaceDoor_T4.text,Place a door as indicated.
+EventPlaceDoor_T4.button1,Continue
+EventPlaceSearch1_T4.button1,Continue
+EventPlaceSearch2_T4.button1,Continue
+EventPlaceSearch2_T4.text,As you look inside the room, you see a drawer with a stand holding an opened book over it. You could use the drawer to organize your things.\n\nPlace a search token as indicated.\n\nYou may now move 1 space into the new tile.
+EventPlaceSearch1_T4.text,At the side of the bed, an antique small desk.\n\nPlace a search token as indicated.
+TokenDoor_T4.text,Guest room
+TokenDoor_T4.button1,Continue
+TokenSearch1_T4.button1,{action} Investigate
+EventRemoveSearch1_T4.text,You open the drawer. There is a matchbox and a small pack of candles inside. \n\nReceive the item {c:QItemCandles_T4} and remove this Search token.
+TokenSearch1_T4.text,A small desk with a lit candle on it.
+EventRemoveSearch1_T4.button1,Continue
+TokenSearch2_T4.text,A bedside desk with an open bible standing on it.
+TokenSearch2_T4.button1,{action} Investigate
+EventRemoveSearch2_T4.text,"The bible is open in a page with a marked passage: \n\n""<i>And I stood upon the sand of the sea, and saw a beast rise up out of the sea, having seven heads and ten horns, and upon his horns ten crowns, and upon his heads the name of blasphemy.</i> (Revelations, 13:1)""\n\nGain 1 clue {clue} and receive the common item {c:QItemBible_T4}.\n\nRemove this search token."
+EventRemoveSearch2_T4.button1,Continue
+SpawnRichardManiac_T2.text,Place a maniac as indicated. This is Richard Bechman, and he sounds unsettled.
+SpawnRichardManiac_T2.button1,Continue
+EventSpawnManiac1_T2.button1,Continue
+EventSpawnManiac1_T6.text,"You heard footsteps in the dark, followed by a breaking noise. Someone ran and bumped into the small table. A man shouts:\n\n""<i>No God can save you from what you deserve, people of little faith!</i>""\n\nHe runs frantically around you, holding an axe, surprising you from behind."
+EventSpawnManiac1_T2.text,"You heard footsteps outside the room, followed by a breaking noise, like someone ran and bumped into something. A man shouts:\n\n""<i>No God can save you from what you deserve, people of little faith!</i>"""
+EventSpawnManiac1_T6.button1,Continue
+EventRichardManiacDefeated.text,Richard suddenly stops as he realizes he is attacking you. He looks at the axe, confused. Horrorified about himself, he runs across the corridor and disappears from your sight.
+EventRichardManiacDefeated.button1,Continue
+TokenExplore1_T6.text,Master bedroom
+TokenExplore1_T6.button1,{action} Explore
+EventRemoveExplore1_T6.text,You open the master bedroom's door slowly. There is not even a lamp turned on.\n \nPlace the {c:TileMasterBedroom} and remove this explore token.\n\nYou may now move 1 space onto the revealed tile.
+EventRemoveExplore1_T6.button1,Continue
+EventPlacePerson1_T7.text,Forcing your eyes, you realize that there is only one person in the bed.\n\nPlace an interact token as indicated.
+EventPlacePerson1_T7.button1,Continue
+TokenSleepingPerson_T7.button1,{action} Interact
+TokenSleepingPerson_T7.text,Your eyes are not getting used to this level of darkness. You are unable to identify who is under the blankets. Perhaps you could see better if you get closer...
+EventIdentifyPerson_T7.text,You get closer and try to infer who is sleeping ({observation}; 2).
+EventIdentifyPerson_T7.button1,Passed!
+EventIdentifyPerson_T7.button2,Failed...
+EventPersonIdentified_T7.text,You squeeze your eyes to make an effort and identify the person in the bed. After a while, you are able to see Grace heavily sleeping.\n\nSubstitute the interaction token by Grace Bechman's person token.
+EventPersonIdentified_T7.button1,Continue
+EventMythos2MinToMaj.text,The lights flicker. You hear noises that look like someone is hammering something, followed by grotesque squeaks. These sounds seem far away, but you are sure they come from inside the house. Suffer 2 horrors (negated by {will}-1).
+TokenGraceBAsleep_T7.button1,Continue
+EventGraceAsleep_T7.button2,Leave Grace Bechman sleeping.
+EventGraceAwaken_T7.button1,Passed!
+EventGraceAwaken_T7.button2,Failed...
+EventTalkToGrace_T7.text,"You softly approach the bed to avoid scaring her: ""<i>Hey, Grace. I'm sorry, but I need you to wake up. We need to talk about Richard...</i>""\n\nShe jumps, startled, and grabs your arms in despair, exclaiming: ""<i>What did he do? Did he do something to my daughter?</i>"""
+EventTalkToGrace_T7.button1,Continue
+EventPersonNotIdentified_T7.text,You carefully walk near the bed and, when you are about to get closer, a loose tile produces a loud sound underneath you.\n\nRichard Bechman gets up from his chair and stares at you in silence. His eyes are empty, it is almost as he was hiding in the darkness of the room, waiting for you to arrive.\n\nPlace Richard token as indicated.
+EventPersonNotIdentified_T7.button1,Continue
+EventGraceAwaken_T7.text,"Grace gets on her feet in a hurry, scared and confused.\n\nRemove the interaction token and place Grace Bechman's person token as indicated.\n\n""<i>What are you doing in sneaking in my room at this hour of the night?</i>""\n\nTry to explain yourself to Grace ({influence}; 3)."
+TokenGraceBAwake_T7.button1,Continue
+EventExplainGraceB_T7.text,"You ask yourself if you should mention Richard's incident and decide to postpone it:\n\n""<i>I was awaken by something breaking and got worried. So, I decided to see if everyone was OK. I have also heard a low whimper. Didn't you hear?</i>""\n\nApparently, Grace bought your excuse. She reveals that recently she started to drink a lot of Sherry to be able to sleep. She starts to sob, and asks you: \n\n""<i>Please, join me to see if my little daugther is safe! Her room is besides ours.</i>""\n\nRichard Bechman says with an annoying calmness: ""<i>Nah, it's just the dog hunting all the rats infesting this house.</i>""\n\nThen, he leaves you, entering into another door near his desk. Remove Richard's person token from the board."
+EventExplainGraceB_T7.button1,Continue
+TokenExplore2_T6.button1,{action} Explore
+EventRemoveExplore2_T6.text,You open the room of the Bechman's two daughters. The furniture is delicately crafted and the walls are covered with a fine linen wallpaper. \nThere is a double bed, untouched.\n\nPlace the {c:TileDaughtersBedroom} tile and remove this exploration token.
+EventRemoveExplore2_T6.button1,Continue
+EventPlaceTokens_T8.button1,Continue
+EventPlaceTokens_T8.text,Place a door as indicated.
+EventPlaceSearch2_T8.text,There is a volume under the bed, but you cannot be sure of what it is from this distance.\n\nPlace a search token as indicated.
+EventPlaceSearch2_T8.button1,Continue
+EventPlaceSearch1_T8.text,A girl's dressing table, with lots of small coloured notes and drawings. They must belong to Mildred.\n\nPlace a search token as indicated.
+EventPlaceSearch1_T8.button1,Continue
+EventPlaceWall_T8.text,Place a wall as indicated.\n\nMildred is not in here. Investigate to discover some clue to her whereabouts.\n\nYou may now move 1 space onto the revealed tile.
+EventPlaceWall_T8.button1,Continue
+TokenSearch1_T8.text,"An envelope with ""From: Gwen. To: Mildred"" written outside it. There is a folded letter inside."
+TokenSearch1_T8.button1,{action} Investigate
+EventRemoveSearch1_T8.button1,Continue
+EventRemoveSearch1_T8.text,"Looking at the notes, you find a postcard from Mildred's sister, Gwendolyne:\n\n""<i>Beloved sister,\nIt is my first field trip with my advisor at MU. We have been investigating the role of artifacts in ancient cultures' religions. I have a small gift for you, but please don't show it to our mother or she will ask questions nonstop. See, it's from your favorite color, emerald green. A beautiful piece of art, just like you. <3\n\nMiss you, your half little devil!\n\n-- Gwen</i>""\n\nMaybe this artifact is behind the strange events affecting the house and the family. Grace has real reasons to seem so worried about her daughter.\n \nGain 2 clues {clue} and remove this search token."
+TokenSearch2_T8.button1,{action} Investigate
+EventRemoveSearch2_T8.button1,Continue
+TokenDog_T8.text,<i>Rrrrrrrr</i>! The dog starts growling softly at you.\n\nIt is determined to protect the box. Maybe you can persuade the dog...
+TokenDog_T8.button1,{action} Try to calm down Pazuzu
+EventDogInteraction_T8.text,You reach your pocket for something that eventually helps in building a bound between you and Pazuzu. This way, you'll be able to reach the box. As you found a piece of jerked beef, you slowly approach Pazuzu, showing the treat to him ({influence}; 3).
+EventDogInteraction_T8.button1,Passed!
+EventDogInteraction_T8.button2,Failed...
+EventDogFriend_T8.text,The dog eats your treat with pleasure. You realize that there is a brass key hanging on its leash. You may get the key, Pazuzu will not harm you right now. \n\nMove the dog aside the drawer as indicated and receive the unique item {c:QItemSmallKey_T8}.
+EventDogFriend_T8.button1,Continue
+TokenDog2_T8.text,The dog is panting and looking at you with contempt.
+TokenDog2_T8.button1,Continue
+EventDogEnemy_T8.button1,Continue
+EventDogEnemy_T8.text,The dog ignores your small piece of jerked beef and advances over your body, trying to byte you. \n\nSuffer 2 facedown damages and 1 facedown horror (negated by {agility}).\n\nSuddenly, the dog starts to contort painfully. You hear a noise of bones cracking. The creature shivers, growls and loses all its fur. Pazuzu is growing at size, transforming itself into something evil.
+TokenPuzzleBox_T8.text,A small box secured by a lock.
+TokenPuzzleBox_T8.button1,Continue
+EventPuzzleBox_T8.text,The lock has a simple secret. You may try to solve it using your {lore}.
+EventPuzzleBox_T8.button1,Solve it!
+EventRemoveCouple_T7.button1,Continue
+EventMissingMildred_T8.text,You rush into the room and come across a disturbing view...\n\nPlace a search token as indicated.
+EventMissingMildred_T8.button1,Continue
+EventRoomUnexplored_T8.button1,Continue
+EventRemoveSearch3_T8.text,What in heavens could have happened here? You observe scratches on the walls as if a beast acted here.\n\nYou start to face the painfull truth---an evil force is trying to corrupt this family. Gain 2 clues {clue}.\n\nRemove this search token, receive the item {c:QItemEvidencia3_T8} and suffer 3 horrors (negated by {will}).
+TokenSearch3_T8.button1,{action} Investigate
+TokenSearch3_T8.text,The room is completely overturned: the bed and furniture are destroyed, the sheets, clothes, and curtains are tore apart. Moments ago you left this very room in perfect state. You may look around the debris to search for something useful to help you understand the current situation.
+EventRemoveSearch3_T8.button1,Continue
+TokenGraceBFainted_T8.button1,Continue
+TokenGraceBFainted_T8.text,"You can hear Grace babbling: \n\n""<i>My little daughter... My husband... God, please take this burden away of me...</i>""\n\nShe stares at the ceiling, immobilized.\n\n""<i>Save my family. I believe only you can do it!</i>"", she says, like a whisper."
+TokenGraceB_T6.text,"""<i>Please, look inside. I'm too afraid to do that</i>"", Grace sobs.\n\n<i>What did I do to God to be punished like that?</i>"""
+TokenGraceB_T6.button1,Continue
+EventGraceB_T8.button1,Continue
+EventBadEnding1.text,"Grace begins to shiver uncontrollably. \n\nShe asks you with a trembling voice: \n\n""<i>I don't know what this is supposed to mean. Are you a kind of pervert?</i>""\n\nShe runs out of the room, knoking you down on the floor.\n \n""<i>Richard! I'll call the police!</i>""\n\nSuffer 1 damage and move Grace Bechman's person token as indicated."
+EventBadEnding1.button1,Continue
+TokenGraceBAwake_T7.text,<i>Why are you sneaking in my room at this hour of the night? </i>
+EventBadEnding1_1.text,When you are just trying to get on your feet again, Richard Bechman come towards you with great anger.\n\nRemove Richard token from the board and place a maniac in the same space of the investigator in the {c:TileMasterBedroom}.
+EventBadEnding1_1.button1,Continue
+TokenGraceRunning_T6.text,Grace runs as if her life depends on it. She will try to reach the telephone at the entry hall and call the police.
+TokenGraceRunning_T6.button1,Continue
+SpawnRichardManiac_T7.button1,Continue
+SpawnRichardManiac_T7.text,"""<i>I knew it. You are the rat! Making noises, sneaking around. I'll kill you, godamned creature!</i>"""
+EventBadEnding1_2.text,You have <b>two turns</b> to escape from Richard and prevent Grace from calling the police. \n\nThe telephone is over the hall's desk. Place an interaction token as indicated.
+EventBadEnding1_2.button1,Continue
+TokenTelephone_T2.text,A telephone you didn't notice before.
+TokenTelephone_T2.button1,{action} Interact
+EventBadEndingCutPhone_T2.text,You reach the telephone before Grace. The only thing you can think now is to pull its cables off of the wall using your {strength}.
+EventBadEndingCutPhone_T2.button1,Continue
+SpawnGraceWitchBadEnding_T2.text,Grace quickly arrives from behing and try to grab you. She is speaking in a foreign language and acting as she is possessed. You need to stop her, or she will kill you.\n\nRemove Grace's person token from the board and place a witch as indicated.
+SpawnGraceWitchBadEnding_T2.button1,Continue
+TokenSearch_T2.button1,{action} Investigate
+EventCutWires_PASS_T2.text,You teared the cables in a way the telephone is not communicable at all.\n\nRemove this interaction token and stay focused.
+EventCutWires_PASS_T2.button1,Continue
+EventCutWires_FAILED_T2.button1,Continue
+EventCutWires_FAILED_T2.text,You feel the despair of being misunderstood and regret the things came to this point. Suffer 1 facedown horror.
+EventSolvePuzzleBox_T8.button1,Continue
+PuzzleBox_T8.button1,Continue
+EventSolvePuzzleBox_T8.text,There is an object wrapped in a ragged tissue. It is some kind of idol...\n\nReceive the item {c:QItemStatue_T8} and remove this search token.
+EventSpawnPazuzu_T3.text,Pazuzu runs through the door and disappear. It almost bumps into you before leaving.\n\nRemove the dog token from the board.
+EventSpawnPazuzu_T3.button1,Continue
+SpawnPazuzu_T3.text,You hear a distant howl and a sound of bones cracking.\n\nPlace a Hound of Tindalos as indicated. This was Pazuzu, but now it is possessed by an evil entity.
+SpawnPazuzu_T3.button1,Continue
+TokenExplore2_T2.text,This door is locked, but noises can be heard from behind it. Would that be the rats Richard keeps talking about?
+TokenSight1_T5.text,The noises you have been hearing come from upstairs. It is a chanting. The light leaking from the door ajar blinks from time to time...
+EventForceDoor_PASSED_T2.text,The hinges were a little bit loose. You hit it with your shoulders and it opens with a quiet crack. \n\nSuffer 1 facedown damage and remove this explore token.
+TokenSight1_T5.button1,Reveal
+EventPlaceTokens_NOKEY_T5.text,On the top of the stairs, there is a door with some light coming out of its cracks.\n\nPlace a sight token as indicated.\n\nA player on the top of the stairs may reveal the adjacent tile.
+EventPlaceTokens_NOKEY_T5.button1,Continue
+EventRemoveSight_T5.text,The chanting is continuous. It is mesmerizing. You feel like you could hear it forever...\n\nRemove this sight token and place the {c:TileAttic} tile as indicated.
+EventRemoveSight_T5.button1,Continue
+EventForceDoor_FAILED_T2.text,You didn't hit it strong enough. The door is still closed, but now you are hurt.\n\nSuffer 1 damage.
+EventForceDoor_FAILED_T2.button1,Continue
+EventPlaceSearch1_T5.text,The stair steps are all splattered with something you cannot figure out from this distance.\n\nPlace the search token as indicated.\n\nYou may move 1 space onto the revealed tile.
+EventPlaceSearch1_T5.button1,Continue
+TokenInteractRitual_T9.text,The remnants of a ritual for summoning an ancient devil.
+TokenInteractRitual_T9.button1,{action} Stop devil's summoning
+EventStopRitual_T9.button1,Continue
+EventStopRitual_T9.text,You blow out and break the candles, stomp the dead animals remainders and throw some drops of holy water on the pentagram. A hiss is heared, followed by a grave, diabolic scream echoing all over the house. You have interrupted the summoning ritual. The devil will not succeed this time.\n\nRemove this interaction token.
+EventStopRitual_FAIL_T9.text,You try to break the ritual, but all your efforts seem in vain. Maybe you should strenghten your faith and try harder...
+EventStopRitual_FAIL_T9.button1,Continue
+SpawnPossessedMildred_T9.text,Mildred heared you coming and hide herself behind the boxes. She jumps over you screaming in several different languages at the same time. She is possessed by a demon. You will need to exorcise her.\n\nSuffer 2 horrors (negated by {will}-1).
+SpawnPossessedMildred_T9.button1,Continue
+TokenFallenMildred_T9.button1,Continue
+EventDevilIn_T9.text,Mildred is levitating, deeply staring through you.
+EventMildredExorcism_T9.text,You search for the right words, trying to remember the Roman Ritual you've read about years ago ({lore}; 2). \n\nIf you pass, you may proceed the rites; if you fail, suffer 1 facedown horror and 1 damage (negated by {observation}).\n\nYou must test your {will} to perform the exorcism.\n\nThe investigator performing the exorcism may discard any Evidence card to turn a roll of {clue} into a {success}.
+EventMildredExorcism_T9.button1,Continue
+EventExorcism_SUCCESS_T9.button1,Continue
+EventExorcism_FAILED1_T9.button1,Continue
+EventExorcism_SUCCESS_T9.text,"Mildred stops screaming and float back to the ground. Her eyes turn back to green. She looks around, confused.\n\n""<i>Mom?</i>"", she whispers. ""<i>What am I doing here?</i>""\n\nMildred is not possessed anymore. \nThe exorcism is over."
+EventExorcism_FAILED2_T9.button1,Continue
+EventMildredPossessedDefeated.text,Mildred falls down. She is in shock, her body full of cuts, her gaze into nowhere. You must help her before it is too late.
+EventMildredPossessedDefeated.button1,Continue
+EventPlaceInteract_T9.button1,Continue
+EventRemoveExplore2_KEY_T2.text,You hear a click. The door is open. \n\nRemove this explore token.
+EventRemoveExplore2_KEY_T2.button1,Continue
+EventKeyFound_T2.button2,Cancel
+EventKeyNotFound_T2.button2,Cancel
+TokenCompletedRitual_T9.text,You identify the remainings of a demon invocation ritual.
+TokenCompletedRitual_T9.button1,{action} Investigate
+EventRemoveSearch2_T9.text,You grab everything you can from the completed ritual to investigate later.\n\nReceive the item {c:QItemRitualComp_T9} and remove this search token.
+EventRemoveSearch2_T9.button1,Continue
+EventPlaceDevil_T9.button1,Continue
+SpawnDevil_T9.text,"The presence looks into you so deeply that you imagine if it can see through your soul.\n\n""<i>LEAVE MY CHILD ALONE!</i>"", it whispers inside your head. ""<i>THERE IS NOTHING YOU CAN DO NOW. SHE IS ALREADY MINE.</i>""\n\nYou hear a devilish laughter.\n\nSpawn a Nightgaunt as indicated."
+SpawnDevil_T9.button1,Continue
+EventMildredIsFallen.text,The devil looks at Mildred's laid down body and enters into her. She is now possessed.
+EventDevilDefeated_T9.button1,Button1
+EventDevilOut_T9.text,Mildred is fainted. Expell the devil from this house.
+EventDevilOut_T9.button1,Continue
+EventDevilIn_T9.button1,{action} Exorcize her!
+EventPlaceGrace_T9.text,Grace arrives and become speechless when faced to her possessed daughter.\n\nPlace Grace's person token as indicated.
+EventPlaceGrace_T9.button1,Continue
+TokenGraceB_T9.button1,Continue
+TokenGraceB_T9.text,"""<i>Sweet Jesus...</i>"", she mutters.\nGrace is in a catatonic state."
+EventGraceOutside_T6.text,"Grace asks you:\n\n""<i>Where is my daughter?</i>""\n\nShe enters the room, overwehelmed."
+EventGraceOutside_T6.button1,Continue
+EventDogDefeated.text,The creature falls down, shaking for few moments. It slowly transforms back to Pazuzu, then melts on the floor in a green goo, releasing a fetid smell. There is nothing left of Mildred's dog...
+EventDogDefeated.button1,Continue
+EventWitchDefeated.text,Grace drops dead on the floor. You have already killed her husband, the dog, her daughter is missing. What will you do? How to explain these events to the police?\nThings really went out of control.\n\nYou go to the basement, hopeless. You find a box with a rope inside.\n\nBack in the kitchen, you tie the rope around the beam, step over a stool, wrap the rope loop around your neck, and kick the stool. \n\nInstantly before your neck breaks, the last sound you hear is a diabolic laughter...\n\nYOU LOST THIS SCENARIO.
+EventWitchDefeated.button1,Continue
+EventNoDevil_T9.button1,{action} Exorcize her!
+EventAlternateEnding_T9.text,"Grace recovers from the shock and approaches Mildred. She holds her daughter, trying to calm her down. Looking at you, Grace says, determined:\n\n""<i>I will measure no efforts to discover who---or what---is behind it. I count on you to help me.</i>""\n\nSweating, you promise to help cracking the case. To do so, you will need to find an old friend of yours. He was once a priest, but was purged from the church after unveiling some dark secret nobody was supposed to know. But now, it's time to call an ambulance to take care of Mildred..."
+EventNoDevil_T9.text,Mildred seems almost unconscious, face down to the floor. Suddenly, her neck spin in an impossible angle so she can look at you. Her eyes are wide open, both completely white.
+EventAlternateEnding_T9.button1,EPILOGUE
+EventRichard_T9.text,"Richard suddenly appears from the other attic's access stairs. He is agitated. Looking to the current mess with a serious visage Richard exclaims:\n\n""<i>I've been searching for the rats all night. The noise surely comes from here. Did you see any?</i>""\n\nYOU WON!\n(This was the good ending, there are others...)"
+EventRichard_T9.button1,Continue
+EventEnding_T9.text,"Your fell battered, the heart beating so loud that almost can be heard from outside your chest. \n\nMildred is in a bad shape. She tries to talk, but there is no sound. Grace bends down close to Mildred and holds her tight:\n \n""<i>Shoosh, calm down little daughter. Mom is here...\n Nothing bad will happen anymore.</i>""\n\nYou need to call an ambulance for Mildred quickly. Grace thanks you. You promise you will investigate the ritual and what is behind tonight's events. Maybe you could try to reach an old friend of yours, a former priest purged from the church for studying the occult too much...\n\nStrangely, Richard is gone."
+EventEnding_T9.button1,EPILOGUE
+EventRichardGone_T9.text,"Although you tried your best, this was your first exorcism.\n\nThe ambulance arrives and takes Mildred to the hospital. Her mother goes together, holding her little hands. Before the ambulance leaves, Grace asks you a favor:\n\n""<i>Could you please take a look if Richard is okay? He usually loses track of time when dealing with his own demons...</i>""\n\nYou found a passed out Richard naked in the basement, hoding an axe, all covered in dirt and blood. ""<i>This man is in an urgent need of professional help</i>"", you think out loud. You help him to stand up and clean, but he now seems lucid. He asks you, confuse about his own situation:\n\n""<i>What am I doing here? Where are my wife and daughter?</i>""\n\nYou explain the events, but he claim not to remember anything. The days pass slowly. Richard is behaving as his normal self. Mildred still is in the hospital. Grace spends all day with her. \n\nYou organize a praying group in the community for Mildred's recovery. Father Mateo is very worried. He didn't take demons for real, but now he is having issues to cope with what he saw in the Bechmans' house.\n\nAfter one week of intensive care, you are told that Mildred did not survived her wounds. Grace, in despair, searches for you and tells you Mildred's last words: <i>Before dying, she grabbed my hand strongly, pulled me close to her mouth and whispered in a very low, but satanic voice---""Tell the priest this is far from over.""</i>\n\nYOU WON!\n(Bad ending, there is a better one...)"
+EventRichardGone_T9.button1,Continue
+EventInitialTile.text,Place the {c:TileEntry} tile. \n\nThe Bechmans invited you to dinner at their home at French Hill, near to the church. They are a very religious family, and feel the need to get together with their new priest.\n\nGrace Bechman is fancily dressed for the occasion. She receives you with a joyful smile. She is wearing a pearl necklace and a nicely cut white dress with details in light blue and gold. Her shoes are shiny white high heels that perfectly match the clothing and jewelry.\n\nRichard, her husband, seems much older than Grace. He is very quiet and exhibits a discrete smile. Richard wears a silk white shirt and a pair of social cargo grey pants. He is already sat at the dinner table, his gaze is distant.\n\nGrace goes to the kitchen and brings a Caesar's salad,  roasted chicken, and a bowl of fresh peas.\n\n<i>Good lord, it smells divine!</i>, you exclaim before taking your seat.
+UIContinue.uitext,Continue
+EventRemoveBoard.button1,To be continued...
+EventRemoveBoard.text,End of Part 1
+EventDoor2_UNLOCKED_T1.button2,Cancel
+TokenExplore1_T1.button2,Cancel
+EventTalkToGraceAtKitchen1_T1.button1,{action} Are you okay?
+EventTalkToGraceAtKitchen1_USED_T1.text,"Grace begins to cry, compulsively:\n\n""<i>I am far from okay... I'm really sorry about tonight. Richard hasn't being easy to handle with since his stroke. Either he shouts at his own shadows in the walls, as if they were chasing him, or he stares at nothing in horror...</i>""\n\nYou try to calm her down, saying that maybe it is just a temporary effect of the stroke and he might recover in the near future. Then she adds:\n\n""<i>There is also the house and its noises at night, almost as if it is trying to say that we are unwanted here... I know what it sounds, but I am not crazy. Could you please stay for tonight? I am really scared!</i>""  \n\nYou decide to spend the night in the house to see if something strange happens, and to support your desperate friend.\n\nGain 1 clue {clue}."
+EventTalkToGraceAtKitchen1_USED_T1.button1,Continue
+EventTalkToGraceAtKitchen1_NoOptions_T1.text,Grace is feeling better now. She will finish the tableware organization and go to sleep.
+EventTalkToGraceAtKitchen1_NoOptions_T1.button1,Continue
+EventTalkToGraceAtKitchen1_T1.button2,Cancel
+EventGraceAsleep_T7.text,You think it would be weird to wake her up in the middle of the night.
+EventGraceAsleep_T7.button1,{action} Wake up Grace Bechman anyway!
+EventMythos1.button1,Continue
+EventMythos3Major.text,A storm is approaching. You see a flash through the window. The lightning strikes a big old tree in the backyard, setting it on fire. The crackle takes you by surprise, making you momentarily lose your balance. Suffer 1 damage and 1 horror (negated by {agility}).\n\nA strange chant can be heard upstairs, as well as fizzles.
+EventMythos5Deadly.button1,Continue
+EventStairsAndAtticNotPlaced.button1,Continue
+TokenExplore2_T5.button1,{action} Explore
+EventStairsAndAtticNotPlaced.text,A demonic ritual has just been completed in the attic. You must act right now to stop whatever was summoned there!\n\nPlace the tile {c:TileUpstairs} and the explore token as indicated.
+TokenExplore2_T5.text,The door is barely hanging from its hinges, as if an inimaginable force pushed it.
+EventMythosR20.button1,Continue
+UITextEnd.uitext,Unfortunately, all your efforts were in vain. You succumbed to the forces of evil, and now the devil is among us. Maybe someone else can fight it, but you will certainly not be here to see if it succeeds...\n\nThe end?
+EventLose.button1,Continue
+UIContinueEnd.uitext,<click to finish...>
+SpawnGoatGirl.text,A succubus appears. She is guarding the door to the attic.\n\nPlace a Goat Spawn as indicated.
+SpawnGoatGirl.button1,Continue
+UIContinue.button1,Continue
+EventMythosR20.text,Your investigation took too long and you did not defeat the enemy. It is over...
+EventExorcizeAccum_T9.button1,Button1
+EventDoor1_UNLOCKED_T1.button2,Cancel
+EventPlaceSearch1_T7.text,There is an object leaning against the wall.
+EventPlaceSearch1_T7.button1,Continue
+TokenSearch1_T7.text,The shape of the object is elongated. Would it be a bat?
+TokenSearch1_T7.button1,{action} Investigate
+EventRemoveSearch1_T7.text,You touch the object, it is goopy. When you look closer, you realize it is Richard's axe, and it is covered in blood!\n \nSuffer 1 facedown horror (negated by {will}).\n\nReceive the item {c:QItemAxe_T7} and remove this search token.
+EventRemoveSearch1_T7.button1,Continue
+EventPlaceSearch1b_T8.text,You notice a crumpled paper under the dressing.\n\nPlace a search token as indicated.
+EventPlaceSearch1b_T8.button1,Continue
+EventDogLeaves_T8.text,Pazuzu, Mildred's dog, runs out of the room carrying a metal box with the mouth. You could see the fear in its eyes.
+EventDogLeaves_T8.button1,Continue
+EventRitualStopped.button1,Continue
+EventRitualOngoing.text,You drop a bottle of Holy Water, then stomp and kick the remnants of the demonic ritual. A fetid smoke fills the air and vanishes.
+EventRitualOngoing.button1,Continue
+EventMythos3Major.button1,Continue
+EventMythos2MinToMaj.button1,Continue
+EventMildredIsFallen.button1,Continue
+EventMildredNotFallen_T9.text,The devil laughs diabolically and vanishes in a fetid red smoke cloud...
+EventMildredNotFallen_T9.button1,Continue
+TokenExplore2_T2b.text,This door is locked, but noises can be heard from behind it. Would that be the rats Richard keeps talking about?
+TokenExplore2_T2b.button1,{action} Continue
+EventNoDevil_T9.button2,Cancel
+EventDevilIn_T9.button2,Cancel
+EventRitual_T9.text,Break the ritual using {lore}. A player possessing the Holy Water item may add one extra die to any roll intending to stop the summoning.
+EventRitual_T9.button1,Continue
+UIContinueEnd.button1,The end?
+EventExorcism_FAILED1_T9.text,"You utter the rite's words at the entity that now inhabits Mildred:\n\n""<i>In the name of Jesus, release this soul!</i>""\n\nShe spits a green slime at your face.\n\nThe exorcism must proceed."
+EventExorcism_FAILED3_T9.text,"""<i>By the power of God, cast into hell Satan and all the evil spirits living in this profaned body!</i>"", you beg, as you throw drops of Holy Water on Mildred. \n\nShe screams like a beast, buns, and curses you.\n\nThe exorcism must proceed."
+EventExorcism_FAILED2_T9.text,"""<i>Archangel Michael, save the soul of this child</i>"", you implore, as you reach your cross and point towards Mildred. \n\nShe gushes a rotten vomit made of small animals out of her mouth. You are disgusted, but must go on with the sacred rite.\n\nThe exorcism must proceed."
+EventExorcism_FAILED3_T9.button1,Continue
+EventMildredAttacks_T9.text,The presence is strong and seems to be blocking the exorcism ritual. Mildred rises in a frenzy to get rid of you...
+EventMildredAttacks_T9.button1,Continue
+SpawnUnchainedMildred_T9.text,Set Mildred's person token aside and spawn a Child of The Goat in her place...
+SpawnUnchainedMildred_T9.button1,Continue
