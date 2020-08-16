@@ -1,11 +1,11 @@
 .,English
-quest.name,Losing my religion, p.1
+quest.name,Losing my religion, part I - The devil in her heart
 quest.description,Father Mateo just arrived in Arkham to be the new priest of Bayfriar's church. After his first mass, the Bechman family invites him and some of their closest friends for a welcome dinner. As the night advances, curious events happens in the house. You have to discover the unsettling secret surrounding the Bechmans. Will your faith be strong enough to survive tonight?
-quest.synopsys,3-part quest starring Father Mateo in an inner quest for his faith. Part 1: The Welcome Dinner.
-quest.authors,Andre Gregio (eVader)
+quest.synopsys,3-part quest starring Father Mateo in an inner search for his faith. Part 1: The devil in her heart.
+quest.authors,Andre Gregio (eVader)\nBug hunting: Scrubbless, Vidimus\nTranslation to Spanish: Vidimus
 quest.authors_short,Andre Gregio (eVader)
 TokenSearch1_T1.button1,{action} Investigate
-EventRemoveRichardB_T1.text,"As Richard leaves stomping and mumbling out loud, Grace says: <i>""Please, don't think it is about you. Richard is not fully recovered yet.</i>""\n\nSet Richard's token aside the board.\n\nHer face is now very serious. She starts to organize the tableware. The dinner is over."
+EventRemoveRichardB_T1.text,"As Richard leaves stomping and mumbling out loud, Grace says: <i>""Please, don't think it is about you. Richard is not fully recovered yet.</i>""\n\nSet Richard's token aside the board.\n\nHer face is now very serious. She starts to organize the tableware. The dinner may be over, but even with the altered mood, Grace never skips the dessert..."
 TokenSearch2_T3.button1,{action} Investigate
 TokenSearch_T2.text,The paper on the top of the pile resembles a medical prescription. 
 EventTalkGraceQ1Q2_T1.button3,Cancel
@@ -14,7 +14,7 @@ EventTalkRichard1_2_T1.text,"""<i>I can't bear it anymore. I'll teach those rats
 EventDoor1_UNLOCKED_T1.text,This door connects the kitchen with the house's main hall. You arrived from this door.
 SpawnPazuzu_T8.button1,Continue
 EventInitialTile.button1,Continue
-UIText.uitext,Today is a great day for Arkham. Father Mateo just arrived in town to be the new priest of Bayfriar's church, in the French Hill neighborhood. In his first mass, he opened his heart and showed himself a man of unshakable faith, charity, and forgiveness. What a homily!\n\n The Bechman family is one of the main benefactors of Arkham. They are a family of faith, moral, and good deeds, and serve their church and community. Everybody leans on them. \n\nTo celebrate Father Mateo arrival, Grace Bechman is going to host a dinner tonight. She invited some members of the community, and the holy man himself, of course.\n\nIf you are playing solo, you must choose Father Mateo. If there are two or three players, one of them should play as Father Mateo.
+UIText.uitext,Today is a great day for Arkham. Father Mateo just arrived in town to be the new priest of Bayfriar's church, in the French Hill neighborhood. In his first mass, he opened his heart and showed himself a man of unshakable faith, charity, and forgiveness. What a homily!\n\n The Bechman family is one of the main benefactors of Arkham. They are a family of faith, moral, good deeds, and serve their church and community. Everybody leans on them. \n\nTo celebrate Father Mateo arrival, Grace Bechman is going to host a dinner tonight. She invited some members of the community, and the holy man himself, of course.\n\n<i>OBSERVATIONS: If you are playing solo, you must choose Father Mateo. With 2 or 3 players, one should play as Father Mateo. Tiles from Recurring Nightmares can be proxyed with Base tiles, and RN monsters are available in the conversion kit or FFG site. Thanks for playing! Feel free to send issues/sugestions to: https://github.com/abedgregio/MoM/</i> 
 EventPlaceGrace_T1.button1,Continue
 EventPlaceRichard_T1.text,Place Richard Bechman at the table.
 EventPlaceRichard_T1.button1,Continue
@@ -174,7 +174,7 @@ EventRemoveSight_T2.text,A hall leading to the other house's rooms reveals in fr
 EventPlaceWall_T6.text,Place the wall token as indicated.
 EventRemoveSight_T2.button1,Continue
 EventPlaceWall2_T6.button1,Continue
-EventMythos1.text,"The lights turn off. Everyone around the table screams, as the table starts trembling. There cupboard abruptly opens and, suddenly, all dishes and glasses are launched towards the guests and floor. Each investigator in the kitchen, dining room or pantry room suffers 1 damage (negated by {agility}).\n\nThe lights turn on again. Nobody understood if this was a prank or a supernatural event. Grace says ""<i>Calm down, friends. It should be a small earthquake. I am just about to serve the dessert!</i>"". \n\nNo one never heard about earthquakes in Arkham. Grace seems to be pretending that nothing unusual happened. You become suspicious that the dinner invitation has other agenda than just welcoming the new priest...\n\nEach investigator receives 1 clue {clue}."
+EventMythos1.text,"The lights turn off. Everyone around the table screams, as it starts trembling. The cupboards abruptly open and, suddenly, all dishes and glasses are launched toward the guests and floor. Each investigator in the kitchen, dining room or pantry room suffers 1 damage (negated by {agility}).\n\nThe lights turn on again. Nobody understood if this was a prank or a supernatural event. Grace says ""<i>Calm down, friends. It should be a small earthquake. I am just about to serve the dessert!</i>"". \n\nNo one never heard about earthquakes in Arkham. Grace seems to have been pretending that nothing unusual happened, despite her husband's behavior and this apparently supernatural event. You become suspicious that the dinner invitation has other agenda than just welcoming the new priest...\n\nEach investigator receives 1 clue {clue}."
 EventForceDoor_PASSED_T2.button1,Continue
 EventMythos5Deadly.text,An unpleseant smell of sulfur invades the air. A thunder rumbles so strong you almost think it is inside the house. Even the door leading upstairs fell onto the floor.\n\nAll the signs were crystal clear, but you didn't want to believe. A demon is here... You paralyze with fear.\n\nSuffer 2 horrors and become stunned.
 TokenSight_T2.text,It is dark and completely quiet across the hall. Everyone should be sleeping. \n\nAn investigator in the {c:TileManorEntry} may reveal the adjacent tile.
@@ -294,7 +294,7 @@ TokenGraceBFainted_T8.text,"You can hear Grace babbling: \n\n""<i>My little daug
 TokenGraceB_T6.text,"""<i>Please, look inside. I'm too afraid to do that</i>"", Grace sobs.\n\n<i>What did I do to God to be punished like that?</i>"""
 TokenGraceB_T6.button1,Continue
 EventGraceB_T8.button1,Continue
-EventBadEnding1.text,"Grace begins to shiver uncontrollably. \n\nShe asks you with a trembling voice: \n\n""<i>I don't know what this is supposed to mean. Are you a kind of pervert?</i>""\n\nShe runs out of the room, knoking you down on the floor.\n \n""<i>Richard! I'll call the police!</i>""\n\nSuffer 1 damage and move Grace Bechman's person token as indicated."
+EventBadEnding1.text,"Grace begins to shiver uncontrollably. \n\nShe asks you with a trembling voice: \n\n""<i>I don't know what this is supposed to mean. Are you some kind of pervert?</i>""\n\nShe runs out of the room, knocking you down on the floor.\n \n""<i>Richard! I'll call the police!</i>""\n\nSuffer 1 damage and move Grace Bechman's person token as indicated."
 EventBadEnding1.button1,Continue
 TokenGraceBAwake_T7.text,<i>Why are you sneaking in my room at this hour of the night? </i>
 EventBadEnding1_1.text,When you are just trying to get on your feet again, Richard Bechman come towards you with great anger.\n\nRemove Richard token from the board and place a maniac in the same space of the investigator in the {c:TileMasterBedroom}.
@@ -303,7 +303,7 @@ TokenGraceRunning_T6.text,Grace runs as if her life depends on it. She will try 
 TokenGraceRunning_T6.button1,Continue
 SpawnRichardManiac_T7.button1,Continue
 SpawnRichardManiac_T7.text,"""<i>I knew it. You are the rat! Making noises, sneaking around. I'll kill you, godamned creature!</i>"""
-EventBadEnding1_2.text,You have <b>two turns</b> to escape from Richard and prevent Grace from calling the police. \n\nThe telephone is over the hall's desk. Place an interaction token as indicated.
+EventBadEnding1_2.text,You have <b>two rounds</b> to escape from Richard and prevent Grace from calling the police. \n\nThe telephone is over the hall's desk. Place an interaction token as indicated.
 EventBadEnding1_2.button1,Continue
 TokenTelephone_T2.text,A telephone you didn't notice before.
 TokenTelephone_T2.button1,{action} Interact
@@ -412,7 +412,7 @@ TokenExplore2_T5.button1,{action} Explore
 EventStairsAndAtticNotPlaced.text,A demonic ritual has just been completed in the attic. You must act right now to stop whatever was summoned there!\n\nPlace the tile {c:TileUpstairs} and the explore token as indicated.
 TokenExplore2_T5.text,The door is barely hanging from its hinges, as if an inimaginable force pushed it.
 EventMythosR20.button1,Continue
-UITextEnd.uitext,Unfortunately, all your efforts were in vain. You succumbed to the forces of evil, and now the devil is among us. Maybe someone else can fight it, but you will certainly not be here to see if it succeeds...\n\nThe end?
+UITextEnd.uitext,Unfortunately, all your efforts were in vain. You succumbed to the forces of evil, and now the devil is among us. Maybe someone else can fight it, but you will certainly not be there to see if it succeeds...\n\nThe end?
 EventLose.button1,Continue
 UIContinueEnd.uitext,<click to finish...>
 SpawnGoatGirl.text,A succubus appears. She is guarding the door to the attic.\n\nPlace a Goat Spawn as indicated.
@@ -454,3 +454,9 @@ EventMildredAttacks_T9.text,The presence is strong and seems to be blocking your
 EventMildredAttacks_T9.button1,Continue
 SpawnUnchainedMildred_T9.text,Set Mildred's person token aside and spawn a Child of The Goat in her place...
 SpawnUnchainedMildred_T9.button1,Continue
+EventGraceRunningToPhone.button1,Button1
+EventGraceAdvances3.text,Quicker than you thought it was possible, Grace opens the telephone desk cabinet, draws a small pistol and shots you right in the chest...
+EventGraceAdvances3.button1,Continue
+EventBadEndingGracePhone.text,You suddenly stop, shocked, and get your hand to your wet chest. It is burning. Grace looks at you with a devilish smirk. Your vision starts to darken, the silence invades the everywhere around you. The only sound you hear is the one of your last heartbeat. As your eyes close, the air around you gets hotter and smells like sulfur. <i> There is no God... </i> is the last thought you have before diving into complete oblivion.
+EventBadEndingGracePhone.button1,Continue
+EventBadEndingGraceUI.button1,Continue

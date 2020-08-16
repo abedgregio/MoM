@@ -1,5 +1,5 @@
 .,Spanish
-quest.name,Perdiendo la fe, primera parte
+quest.name,Perdiendo la fe, primera parte - El demonio en su corazón.
 quest.description,El padre Mateo acaba de llegar a Arkham para ser el nuevo cura de la iglesia de Bayfriar. Después de su primera misa, la familia Bechman le invita a él y a algunos de sus amigos más cercanos a una cena de bienvenida. A medida que avanza la noche, extraños eventos suceden en la casa. Debéis descubrir el inquietante secreto que rodea a los Bechman. ¿Será vuestra fe lo suficientemente fuerte como para sobrevivir a esta noche?\n\n <b>Si vas a jugar este escenario en solitario, tienes que hacerlo obligatoriamente con el padre Mateo. Si hay dos o tres jugadores, uno de ellos debe llevar al padre Mateo</b>.
 quest.synopsys,Una aventura en 3 partes, protagonizada por el padre Mateo, en su búsqueda interna de la fe. Parte 1: La cena de bienvenida.
 quest.authors,<i>Creado por:</i> Andre Gregio (eVader) \n <i>Traducción al español:</i> Vidimus
@@ -454,3 +454,9 @@ EventMildredAttacks_T9.text,La presencia es fuerte y parece estar bloqueando tus
 EventMildredAttacks_T9.button1,Continuar
 SpawnUnchainedMildred_T9.text,Coloca la ficha de Personaje de Mildred a un lado del tablero y coloca una hija de la cabra en su lugar...
 SpawnUnchainedMildred_T9.button1,Continuar
+EventGraceRunningToPhone.button1,Button1
+EventGraceAdvances3.text,Más rápido de lo que pensabas ser posible, Grace abre el cajón del escritorio del teléfono, saca una pequeña pistola y te dispara directamente en el pecho...
+EventGraceAdvances3.button1,Continuar
+EventBadEndingGracePhone.text,De repente te detienes, sorprendido, y llevas tu mano a tu pecho mojado. Está ardiendo. Grace te mira con una sonrisa diabólica. Tu visión comienza a oscurecerse y el silencio invade todo lo que te rodea. El único sonido que escuchas es el de tu último latido. A medida que sus ojos se cierran, el aire a su alrededor se calienta y huele a azufre. <i> No hay Dios ... </i> es el último pensamiento que tienes antes de sumergirte en el completo olvido.
+EventBadEndingGracePhone.button1,Continuar
+EventBadEndingGraceUI.button1,Continuar
