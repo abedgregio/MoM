@@ -2,7 +2,7 @@
 quest.name,"Perdendo a fé, parte I - O demônio no coração dela."
 quest.description,"Padre Mateo acaba de chegar em Arkham para ser o novo padre da igreja de Bayfriar. Depois de sua primeira missa, a família Bechman convida ele e alguns de seus amigos mais próximos para um jantar de boas-vindas. Com o avanço da noite, eventos curiosos acontecem na casa. Você tem que descobrir o segredo perturbador que envolve os Bechmans. Será que a sua fé é forte o bastante para sobreviver a esta noite?"
 quest.synopsys,Uma aventura de 3 partes estrelado por Padre Mateo em uma busca interior por sua fé. Parte 1: O demônio no coração dela.
-quest.authors,"Andre Gregio (eVader)\nTester: Scrubbless, Vidimus\nTradução para o espanhol: Vidimus\nTradução para o português: Rafael Bola, André Grégio"
+quest.authors,"Andre Gregio (eVader)\nTester: Scrubbless, Vidimus\nTradução para o espanhol: Vidimus\nTradução para o português: Paulo José Moraes de Paula Santos, Rafael Bola, André Grégio"
 quest.authors_short,Andre Gregio (eVader)
 TokenSearch1_T1.button1,{action} Investigar
 EventRemoveRichardB_T1.text,"Assim que Richard deixa o local pisando forte e resmungando em voz alta, Grace diz: <i> ""Por favor, não pense que o problema é você. Richard ainda não se recuperou por completo.""</i>\n\nRemova Richard Bechman do tabuleiro.\n\nO rosto de Grace fica sério e ela começa a organizar os pratos e talheres. O jantar pode ter acabado desastrosamente, mas mesmo de humor alterado, Grace nunca pula a parte da sobremesa..."
