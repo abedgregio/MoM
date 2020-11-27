@@ -1,0 +1,678 @@
+.,English
+quest.name,Perdendo a fé, parte 2 - Simpatia pelo demônio
+quest.description,Dual scenario:\n1. Father Mateo has to find purged father Markus\n2. Grace Bechman needs the help of the investigator(s) to find Gwendolyn
+quest.synopsys,Padre Mateo precisa encontrar seu amigo Merrin e ajudar Grace a solucionar o desaparecimento de Gwen
+Event00_startEvent.text,Vocês chegam em frente ao pensionato onde Gwen mora durante a semana letiva e batem na porta. Ninguém atende. Uma tentativa de girar a maçaneta revela que a porta está destrancada...\n\nColoque a peça {c:Tile00_hallDormGwen}.\n\nAo adentrar o pensionato, nota-se que o corredor possui decoração simples: um tapete, uma cadeira e uma mesa de canto. Duas portas devem levar aos quartos alugados por estudantes dada a proximidade com a Universidade Miskatonic.
+Event00_removeView1.text,A entrada do pensionato dá para os fundos de um bar.\n\nRemova o marcador de avistamento e coloque a peça {c:Tile02_ruaDorm} como indicado.
+Event00_placeTokens.text,Há uma pilha de correspondências sobre a mesinha ao lado da porta de entrada.\n\nColoque um marcador de busca como indicado.
+Token00_Busca1.text,Mesa de canto com uma pilha de cartas em cima.
+Token00_Busca1.button1,Procurar {action}
+Event00_removeBusca1.button1,Continue
+Event00_Expl1.button1,Continue
+Event00_removeBusca1.text,Há várias correspondências destinadas a Gwen e datadas dos últimos 5 dias. Ao que tudo indica, Gwen desapareceu logo no início da semana, após voltar da casa de seus pais.\n\nGanhe 1 pista {clue} e remova este marcador de busca.
+Token00_Expl1.text,Porta do quarto alugado por Gwen Bechman e sua amiga da Universidade Miskatonic.
+Event00_colocarTileQuarto.text,Você insere na fechadura um grampo que sempre leva consigo e o gira de modo preciso, porém cuidadoso. CLICK! A porta está destrancada.\n\nRemova o marcador de exploração e adicione a peça {c:Tile01_dormGwen}.\n\nVocê pode se mover um espaço para o cômodo explorado.
+Event00_removerExpl1.button1,SUCESSO!
+Event00_removerExpl1.button2,FALHA...
+Token00_Expl1.button1,Explorar {action}
+Event00_Expl1.text,Conforme indicado por Grace Bechman, a primeira porta à esquerda da entrada do pensionato é onde sua filha Gwen mora com uma amiga.\n\nColoque um marcador de exploração como indicado.
+Event00_colocarTileQuarto.button1,Continue
+Event00_placeTokens.button1,Continue
+Token00_Inter1.text,Uma cadeira de balanço empoeirada. Parece que ninguém se senta aqui há um bom tempo.
+Token00_View1.button1,Revelar
+Event00_View1.text,Você deixa a porta encostada, esperando ouvir algo se alguém entrar de repente.
+Token00_View1.text,A porta dá para a rua da frente do pensionato.\n\nUm investigador dentro do pensionato e no espaço deste marcador de avistamento pode revelar a região adjacente.
+Event00_View1.button1,Continue
+Event00_startEvent.button1,Continue
+Event00_removerExpl1.text,A porta está trancada, mas a fechadura parece ser bem simples. Você pode tentar usar um grampo para abri-la ({observation}; 1).
+Token00_Inter1.button1,Balançar a cadeira {action}
+Event00_removeInter1.text,Movido pela inquietação, você balança a cadeira. O rangido agudo lhe causa arrepios. Assustado, você se afasta da cadeira... \n\n(Teste {agility}; 1)
+Event00_removeInter1.button1,PASSOU!
+Event00_removeInter1.button2,FALHOU...
+Event00_Inter1_FAIL.button1,Continue
+Event00_Inter1_SUCCESS.text,"Ao girar seu corpo rapidamente, o tapete desliza revelando um pedaço de papel rasgado. Você pega o fragmento e consegue identificar ""dem do Crepúsc"" escrito nele. \n\nGanhe o item {c:QItem00_EvidenciaCircunstancial} e remova o marcador de interação. "
+Event00_Inter1_FAIL.text,O giro descuidado faz seu pé enroscar no tapete. Você tropeça e cai no chão, quase torcendo o tornozelo.\n\nSofra 1 dano voltado para baixo e remova o marcador de interação.
+Event00_Inter1_SUCCESS.button1,Continue
+Event00_Inter1.text,Há uma cadeira de balanço antiga, ao lado de um pequeno móvel com um pedaço de vela apagada muito pequeno para ser útil.\n\nColoque o marcador de interação como indicado.
+Event00_Inter1.button1,Continue
+Event00_removeView1.button1,Continue
+Event00_placeInvestigators.text,Coloque o(s) investigador(es) no corredor de entrada do pensionato conforme indicado.
+Event00_placeInvestigators.button1,Continue
+Event00_portaFechada.text,Você torce o grampo cuidadosamente, mas nada acontece... A porta continua trancada.
+Event00_portaFechada.button1,Continue
+Event01_Busca1.text,O abrir da porta revela um quarto com pouca mobília e aparentemente organizado, exceto por alguns livros derrubados e papéis revirados na cômoda.\n\nColoque um marcador de busca como indicado. 
+Token01_Busca1.text,Uma pilha de livros caídos e vários papéis desarrumados destoam da organização do quarto. Talvez esta cômoda seja a de Gwen.
+Event01_removeBusca1.text,Os papéis parecem conter datas seguidas por símbolos, tudo rabiscado. É impossível ler o que está escrito, se é que há algo humanamente legível. Ao folhear os livros, uma ficha da biblioteca da Universidade Miskatonic cai no chão. Na ficha, identificada como UM-000-000-001, há vários empréstimos seguidos feitos por Gwen nos últimos 6 meses. A última data de devolução estava programada para o início desta semana...\n\nGanhe 1 pista {clue} e remova este marcador de busca.
+Token01_Busca1.button1,Procurar {action}
+Event01_Busca3.text,Em frente à outra cama, também intocada, uma outra cômoda jaz sem nada em cima.\n\nColoque um marcador de busca como indicado.
+Token01_Busca3.button1,Procurar {action}
+Token01_Busca3.text,Uma cômoda simples, sem gavetas. Talvez você encontre alguma pista sobre o paradeiro de Gwen se vasculhá-las.
+Event01_removeBusca3.text,Para sua surpresa, todas as gavetas estão vazias. O pó sobre a cômoda e o cheiro de mofo presente nas gavetas lhe faz pensar se realmente Gwen dividia o quarto com alguém...\n\nGanhe 1 pista {clue} e remova este marcador de busca.
+Event01_removeBusca3.button1,Continue
+Event01_Busca2.text,Um balde de madeira fica entre as duas camas. 
+Event01_Busca1.button1,Continue
+Event01_removeBusca1.button1,Continue
+Event02_View1.text,A rua de paralelepídeos já está escura. À esquerda fica a entrada do câmpus da Universidade Miskatonic. É possível ver a praça onde os estudantes se reúnem durante o dia.\n\nColoque um marcador de avistamento como indicado.
+Event02_View1.button1,Continue
+Token02_View1.text,Para a Universidade Miskatonic.\n\nCom Gwen desaparecida há vários dias, não há tempo para fazer uma busca meticulosa. Se optar por seguir este caminho, não será possível voltar para o centro da cidade mais tarde.
+Token02_View1.button1,Revelar
+Token02_View2.text,Para o centro da cidade.\n\nCom Gwen desaparecida há vários dias, não há tempo para fazer uma busca meticulosa. Se optar por seguir este caminho, não será possível voltar para a universidade mais tarde.
+Token02_View2.button1,Revelar
+Event02_View2.text,A esquina dobra em direção ao centro da cidade.\n\nColoque um marcador de avistamento como indicado.
+Event02_View2.button1,Continue
+Event02_removeView1.text,A praça da frente da universidade costuma ser mais alegre de dia, mas agora o local está ermo e mal iluminado.\n\nColoque a peça {c:Tile03a_pracaUniversidade} e remova este marcador de avistamento.\n\nLEMBRETE: Você não poderá voltar para explorar o centro da cidade (jogue novamente tomando o outro caminho para descobrir o que acontece).
+Event02_removeView1.button1,Continue
+Event02_Expl1.text,A porta dos fundos do bar e lanchonete da Velma está bem suja e surrada pelo tempo. Se o estado desta porta refletir a limpeza da cozinha, os clientes estão em maus lençóis...\n\nColoque um marcador de exploração como indicado.
+Event02_Expl1.button1,Continue
+Token02_Expl1.text,Porta dos fundos do bar e lanchonete da Velma.
+Token02_Expl1.button1,Continue
+Event01_testObserv.text,Um pressentimento lhe toma de súbito e você volta a examinar as gavetas. Desta vez, você passa a mão por trás delas e verifica os fundos de cada uma (teste {observation}; 3).
+Event01_testObserv.button1,PASSOU!
+Event01_testObserv.button2,FALHOU...
+Event01_testObserv_SUCCESS.text,"Você encontra uma chave pequena presa ao fundo de uma das gavetas. Nela, uma etiqueta onde se lê: ""B&LV"".\nMais uma vez, sua intuição se mostrou valiosa para as investigações. Receba o item {c:QItem01_BrassKey}."
+Event01_testObserv_SUCCESS.button1,Continue
+Event01_testObserv_FAIL.text,Seu sexto sentido parece estar descalibrado. Você sente que já foi melhor nisso. \n\nFique Desnorteado.
+Event01_testObserv_FAIL.button1,Continue
+Event02_Expl1_CHAVE.button1,Abrir porta {action}
+Event02_Expl1_SEMCHAVE.text,A porta é do tipo corta-fogo e bem robusta. Além de esta porta só abrir por dentro, você percebe que não parece ser uma boa ideia invadir um estabelecimento comercial em pleno funcionamento.\n\nRemova este marcador de exploração.
+Event02_Expl1_CHAVE.text,A porta está trancada, mas a fechadura se parece muito com a chave que você achou escondida na cômoda... 
+Event02_Expl1_SEMCHAVE.button1,Continue
+Event02_removeExpl1.text,Você usa a chave encontrada e abre a porta vagarosamente. O barulho das conversas sobrepostas é ininteligível. Você pensa duas vezes se não seria mais prudente entrar pela porta da frente, como um cliente comum.
+Event02_removeExpl1.button1,Entrar por aqui mesmo
+Event02_removeExpl1.button2,Desistir
+Token02_Busca1.text,A luz reflete algo brilhante dentro do velho barril.
+Token02_Busca1.button1,Procurar {action}
+Event02_removeBusca1.text,Você remove a tampa com cuidado para não se sujar. O fedor que sai do barril lhe dá náuseas. No meio de cascas de batatas e outros detritos que você prefere nem saber o que são, algo brilha. Você puxa o objeto, relutante...\n\nPara seu espanto, é um soco inglês. Junto com ele, a mão decepada de seu antigo dono. \n\nSofra 1 horror.\nReceba o item {c:QItem02_SocoIngles} e remova este marcador de busca.
+Event02_removeBusca1.button1,Continue
+Event02_Busca1.text,Há um barril com a tampa mal colocada ao lado da porta dos fundos da lanchonete. Um líquido escuro e viscoso escorre por baixo do barril. Deve ser o lixo do restaurante.
+Event02_Busca1.button1,Continue
+Event02_Busca2.text,Um folheto rasgado está colado na parede.
+Event02_Busca2.button1,Continue
+Token02_Busca2.text,O folheto está bem maltratado pelo tempo. Talvez se você olhá-lo mais de perto consiga entender parte do que está escrito.
+Token02_Busca2.button1,Procurar {action}
+Event02_removeView2.text,A rua de paralelepípedos ruma para a praça central de Arkham. O cheiro de peixe podre permeia o ar.\n\nColoque a peça {c:Tile03b_ruaFrente} e remova este marcador de avistamento.\n\nLEMBRETE: Você não poderá voltar para explorar a Universidade Miskatonic (jogue novamente tomando o outro caminho para descobrir o que acontece).
+Event02_removeView2.button1,Continue
+Event02_removeBusca2.text,Fora o pedaço rasgado, o que sobrou está molhado e manchado, dificultando bastante a leitura. Você força sua vista (Teste {observation}; 1). Um investigador de posse do item Evidência Circustancial pode descartá-lo para obter sucesso neste teste.
+Event02_removeBusca2.button1,PASSOU!
+Event02_removeBusca2.button2,FALHOU...
+Event02_removeBusca2_SUCCESS.button1,Continue
+Event02_removeBusca2_FAIL.text,Ao tentar remover o papel da parede, ele esfarela em seus dedos. Não há mais nada para se ler... \n\nFique <b>estressado</b> (<i>caso não possua esta carta de condição, o texto é o seguinte: Após re-rolar e converter resultados de dados ao resolver um teste, você deve remover 1 SUCESSO do resultado dos seus dados.\n No final de seu turno, descarte esta carta</i>).\n\nRemova este marcador de busca.
+Event02_removeBusca2_SUCCESS.text,"Você remove o pedaço de papel com delicadeza, força sua vista ao máximo e o coloca contra a luz do poste mais próximo. É possível ler o seguinte:\n\n""<b>Mente sagaz e audaciosa?</b>\n\n<i>Venha trabalhar conosco! Procure a Or...\n... ... ... úlo Prat...\n...ais próxi...</i>\n\nO restante do texto está faltando ou ilegível, mas você já dá para inferir o teor do conteúdo.\n\nGanhe 1 pista {clue} e remova este marcador de busca."
+Event02_removeBusca2_FAIL.button1,Continue
+Token02_View2_BLOCK.text,Nessa altura da investigação, você julga melhor rumar para a Universidade, ou o tempo de Gwen pode se esgotar caso ela esteja em perigo.\n\nDa outra vez em que jogar esta missão, siga por este lado... =)\n\nRemova este marcador de avistamento.
+Token02_View2_BLOCK.button1,Continue
+Token02_View1_BLOCK.text,Nessa altura da investigação, você julga melhor rumar para o Centro da cidade, ou o tempo de Gwen pode se esgotar caso ela esteja em perigo.\n\nDa outra vez em que jogar esta missão, siga por este lado...\n\nRemova este marcador de avistamento.
+Token02_View1_BLOCK.button1,Continue
+Event02_removeExpl1_QUIT.text,Você volta a si e fecha a porta com ainda mais cuidado, torcendo para que ninguém de dentro perceba o movimento. Melhor se apressar em continuar a investigação sobre o paradeiro de Gwen.\n\nFique <b>compenetrado</b> e remova este marcador de exploração.
+Event02_removeExpl1_QUIT.button1,Continue
+Event02_removeExpl1_SURE.text,"Discretamente, você se esgueira porta adentro confiando que a distração do barulho e a escuridão do ambiente irão lhe proteger. Ao virar o corpo, você dá de cara com um homem que mais parece uma muralha.\n\n""<i>O que você está fazendo com a chave da Naomi?</i>"", o homem lhe pergunta?\n\nAntes de lhe dar a chance de responder, o homem levanta a enorme mão em direção ao seu frágil pescoço (Teste {agility}; 1). Se passar, você se esquiva e consegue sair do bar. Se falhar, sofra 1 dano voltado para baixo.\n\nRemova este marcador de exploração."
+Event02_removeExpl1_SURE.button1,Continue
+Spawn02_Mercenario.text,"""<i>Vamos ver se com o pescoço quebrado você ainda é capaz de me responder sobre as chaves de Naomi...</i>"", o homem diz antes de te atacar.\n\nFaça surgir um mercenário no local indicado."
+Spawn02_Mercenario.button1,Continue
+Event03a_placeTokens.text,Há uns anos, esta praça abrigava um memorial com uma torre de sino. Um incêncio misterioso destruiu a torre, que foi demolida. Hoje em dia, ninguém mais comenta sobre o assunto. É como se a torre nunca houvesse existido.\n\n<i>DONG!</i>\n\nVocê jura que ouviu um sino badalar. Deve ser apenas sua imaginação. \n\nSofra 1 horror voltado para baixo (negado por {will}).
+Event03a_placeTokens.button1,Continue
+Event03a_Busca1.text,Você escuta algo atrás dos arbustos. Um rato passa correndo e some em direção ao bueiro mais próximo.\n\nColoque um marcador de busca como indicado.
+Event03a_Busca1.button1,Continue
+Token03a_Busca1.text,Parece que um pacote foi deixado aqui.
+Token03a_Busca1.button1,Procurar {action}
+Event03a_removeBusca1.text,Ao vasculhar o pacote, você encontra alguns comprimidos. Algum estudante deve ter escondido aqui para pegar depois. \n\nGanhe o item {c:QItem03a_MentalStimulant} e remova este marcador de busca.
+Event03a_removeBusca1.button1,Continue
+Event03a_Inter1.button1,Continue
+Token03a_Inter1.text,Parece um corpo estirado, imóvel.
+Event03a_Inter1.text,Há um volume debaixo do banco.
+Token03a_Inter1.button1,Examinar {action}
+Event03a_removeInter1.text,Você se aproxima pé ante pé e identifica uma pessoa. Não há ruído algum, tampouco parece que ela está respirando. Ao tocar o pescoço da pessoa a fim de verificar se há pulsação, ela se senta sobressaltada e lhe empurra resmungando:\n\n<i>O que você quer a essa hora. Me deixe em paz!</i>\n\nVocê perde o equilíbrio e cai para trás com o empurrão. Sofra 1 dano voltado para baixo (negado por {agility}).\n\nSubstitua o marcador de interação pelo marcador de pessoa indicado.
+Event03a_removeInter1.button1,Continue
+Token03a_Person1.text,"<i>""Que horas são? Você não é dos meus clientes habituais. Posso lhe oferecer algo?""</i>"
+Token03a_Person1.button1,{action} O que você tem de bom para oferecer?
+Token03a_Person1.button2,Você conhece uma garota chamada Gwen?
+Event03a_Expl1.text,Dá para perceber que a porta da ala nova do Museu da Universidade Miskatonic foi recém pintada.\n\nColoque um marcador de exploração como indicado.
+Event03a_Expl1.button1,Continue
+Token03a_Expl1.text,Acima da porta, uma placa de cobre recém instalada onde se lê:\n\n<b>Anexo do Museu de Exibição Miskatonic</b>\n\nA porta é do tipo corta-fogo e possui uma janela de vidro, por onde se pode olhar para dentro. As luzes estão acesas, mas você não vê ninguém.
+Token03a_Expl1.button1,Bater na porta {action}
+Event03a_Expl2.text,Ao lado, o prédio antigo e a porta ornada da biblioteca destoam da arquitetura do Anexo do Museu. \n\nColoque um marcador de exploração como indicado.
+Event03a_Expl2.button1,Continue
+Token03a_Expl2.text,A placa logo acima da porta está bem corroída pelo tempo. Mesmo quase ilegível, ainda é possível identificar o escrito:\n\n<b>Biblioteca Orne</b>
+Token03a_Expl2.button1,Explorar {action}
+Event01_Busca3.button1,Continue
+Event01_Busca2.button1,Continue
+Token01_Busca2.text,Provavelmente, este balde é usado como cesto de lixo.
+Token01_Busca2.button1,Procurar {action}
+Event01_removeBusca2.text,Você olha dentro do balde, e há o que parece ser uma foto rasgada. Colocando os pedaços lado a lado, você reconhece um jovem rapaz com um bebê de colo. Você nota que o bebê possui uma mancha vermelha no braço que lembra uma lua crescente. No verso da foto, uma data de quase duas décadas atrás.\n\nReceba o item {c:QItem01_EvdFoto} e remova este marcador de busca.
+Event01_removeBusca2.button1,Continue
+Event03a_removeExpl1.text,Você encosta o rosto no vidro e bate na porta. Um guarda aparece e, sem demonstrar emoção nem lhe perguntar nada, abre a porta. A universidade é mesmo um lugar peculiar.\n\nRemova este marcador de exploração e coloque a peça {c:Tile04_museuDinossauro}. \n\nVocê pode se mover um espaço em direção à região explorada.
+Event03a_removeExpl1.button1,Continue
+Event04_placeTokens.text,O segurança volta para seu posto e se recosta em uma cadeira, cobrindo o rosto com seu quepe.\n\nColoque um marcador de pessoa como indicado.\n\nO salão do anexo novo é realmente impressionante. Uma clarabóia deixa a luz da lua entrar e confere um brilho azulado sobrenatural ao enorme esqueleto de estegossauro.
+Event04_placeTokens.button1,Continue
+Event04_View1.text,O corredor se alonga para dentro do Museu.\n\nColoque um marcador de avistamento como indicado.
+Event04_View1.button1,Continue
+Token04_View1.text,Um investigador neste espaço pode revelar o que há adiante do corredor.
+Token04_View1.button1,Revelar
+Event04_removeView1.text,Você chega a mais uma parte da ala nova do museu. Nesta área, alguns equipamentos voltados para a química.\n\nRemova este marcador de avistamento e coloque a peça {c:Tile05_museuCanto}.
+Event04_removeView1.button1,Continue
+Event04_Expl1.button1,Continue
+Event04_removeExpl1.text,Você gira a maçaneta, mas a porta está trancada. Talvez um pouco de força e jeito faça com que ela abra.
+Token04_Expl1.text,Uma porta de madeira nova, mas nada incomum.
+Token04_Expl1.button1,Tentar abrir {action}
+Event04_removeExpl1.button1,Tentar arrombar a porta
+Event04_removeExpl1.button2,Deixar para lá
+Event05_placeTokens.text,Na mesa de exibição, um aparato antigo que parece ser de destilação.\n\nColoque um marcador de busca como indicado.
+Event04_arrombarExpl1.button1,PASSOU!
+Event04_arrombarExpl1.button2,FALHOU...
+Event04_arrombarExpl1_SUCCESS.text,A porta se abre sem fazer muito barulho. Você verifica a retaguarda. O guarda nem se moveu.\n\nRemova este marcador de exploração e coloque a peça {c:Tile06_gabineteProfessor} como indicado.\n\nVocê pode se mover 1 espaço em direção a região explorada.\n
+Event04_arrombarExpl1.text,Você decide tentar a sorte forçando a maçaneta para cima enquanto empurra a porta. Talvez seja uma porta frágil (teste {strength}; 2).
+Event04_arrombarExpl1_SUCCESS.button1,Continue
+Event04_arrombarExpl1_FAIL.text,O barulho que você faz é tanto que o guarda acorda, irritado. Mais rápido do que você imagina, ele aparece atrás de você:\n\n<i>É melhor você me explicar o que está tentando fazer ou vou ter que convidá-lo a se retirar...</i>\n\nMova o marcador de pessoa como indicado.\n\nVocê usa de toda sua experiência para arrumar uma desculpa de pronto (teste {influence}; 2).
+Event04_arrombarExpl1_FAIL.button1,PASSOU!
+Event04_arrombarExpl1_FAIL.button2,FALHOU...
+Event04_GuardaB_SUCCESS.text,"Você respira fundo e solta:\n\n<i>Olha, meu amigo, eu até poderia ficar aqui desabafando sobre o sofrimento que é lidar com esses acadêmicos, mas seu eu não entrar aí e pegar o artigo que o Professor pediu agora, ambos estaremos enrascados. Então, por favor, me dê licença agora!</i>\n\nO guarda resmunga baixinho ""<i>Esses professores pensam que estão acima de tudo e de todos.</i>"" e volta para seu posto.\n\nRetorne o marcador de pessoa para o local anterior como indicado. O guarda volta a cobrir o rosto para tentar continuar sua soneca.\n\nVocê pode tentar abrir a porta de uma outra forma ou procurar outro caminho para esta sala..."
+Event04_GuardaB_SUCCESS.button1,Continue
+Token04_Expl1b.text,Ao mexer na porta, você nota que ela tem uma fechadura bem ordinária.
+Token04_Expl1b.button1,{action} Tentar arrombar a fechadura
+Event04_GuardaB_FAIL.text,Sem dizer nada, o guarda lhe pega pelo braço e lhe acompanha até a saída...
+Puzzle04_expl1.button1,Adivinhar
+Event04_GuardaB_FAIL.button1,Resistir
+Event04_GuardaB_FAIL.button2,Ir embora
+Event04_brigarGuarda.text,"Você solta seu braço bruscamente da mão do guarda e o soca na boca do estômago. O guarda fica atônito com seu comportamento e grita: \n\n""<i>Como você pôde me agredir se só estou fazendo o meu trabalho? Nenhum de vocês é capaz de respeitar ninguém do meu povo?</i>""\n\nEle se enfurece, não só com você, mas por lembrar do quanto é menosprezado e o como seu trabalho é desvalorizado e mal pago. O guarda lhe ataca de volta."
+Event04_brigarGuarda.button1,Continue
+Event04_spawnGuarda.text,\nRemova o marcador de pessoa que representa o guarda e faça surgir um Híbrido de Abissal em seu lugar.
+Event04_spawnGuarda.button1,Continue
+Event04_expulso.text,O guarda te coloca para fora do Museu e tranca a porta por dentro. \n\nMOVA OS INVESTIGADORES QUE ESTAVAM NO MESMO ESPAÇO DO GUARDA PARA FORA DO MUSEU COMO INDICADO (<b>os investigadores só podem voltar a entrar no Museu se o marcador de interação for removido e/ou o guarda não estiver mais vigiando</b>).\n\nEle se posta logo atrás da porta e fica te encarando pelo vidro. Parece que agora ele vai ficar acordado.\n\nColoque um marcador de interação na porta do Museu e mova o marcador de pessoa do guarda como indicado.
+Event04_expulso.button1,Continue
+Token04_Inter0.text,O guarda está te observando pelo vidro da porta.
+Token04_Inter0.button1,Continue
+Token04_GuardaC.text,O guarda te observa, imóvel. Parece até que nem pisca mais. Seu olhar é um misto de frustração e aborrecimento.
+Token04_GuardaC.button1,{action} Provocá-lo
+Event04_Expl1.text,Há uma porta sem identificação do lado direito.\n\nColoque um marcador de exploração conforme indicado.
+Event05_placeTokens.button1,Continue
+Event05_Busca2.text,Ao lado, outra mostra com alguns frascos.\n\nColoque um marcador de busca como indicado.
+Event05_Busca2.button1,Continue
+Event05_Expl1.text,Ao lado dos mostradores, a porta de um gabinete.\n\nColoque um marcador de exploração como indicado.
+Event05_Expl1.button1,Continue
+Token05_Expl1.text,A placa na porta diz:\n\n<i>Professor Smith</i>\nAncient History/Archaeology
+Token05_Expl1.button1,Explorar {action}
+Event05_removeExpl1.text,Você abre a porta, sem bater, e entra...\n\nRemova todos os marcadores de exploração que levam a esta sala e coloque a peça {c:Tile06_gabineteProfessor} como indicado.\n\nVocê pode se mover 1 espaço em direção à região explorada.
+Event05_removeExpl1.button1,Continue
+Event05_removeExpl1_ProfPuto.text,Você abre a porta, sem bater, e entra...\n\nRemova este marcador de exploração.\n\nVocê pode se mover 1 espaço em direção à região explorada.
+Event05_removeExpl1_ProfPuto.button1,Continue
+Event06_professor1b.button1,Continue
+Event06_SmithLisonjeado.button2,FALHOU...
+Event06_professor1b.text,Você mal termina de abrir a porta e já percebe que talvez tenha cometido um erro. Professor Smith termina de abrir a porta e questiona:\n\n<i>O que você quer aqui novamente, sua criatura atrevida?</i>\n\nColoque o marcador de pessoa do Professor Smith no local indicado.
+Event06_SmithLisonjeado.button1,PASSOU!
+Event06_professor1a.text,"Ao entrar, você escuta um pigarro. \n\n""<i>Em que posso lhe ajudar?</i>"", pergunta um senhor de feições muito sérias, sentado em uma cadeira elegante.\n\nColoque o marcador de pessoa do Professor Smith como indicado.\n\nProfessor Smith cobre rapidamente algo brilhante em cima de sua mesa com um tecido de aparência bem antiga."
+Event06_professor1a.button1,Continue
+Token05_Busca1.text,Você reconhece o equipamento antigo de alquimia. 
+Token05_Busca1.button1,Procurar {action}
+Event05_removeBusca1.text,"Na mesa há um escrito cravado com um canivete: \n\n""Na morte jaz o segredo da vida --G.B.""\n\nGanhe 1 pista {clue} e remova este marcador de busca."
+Event05_removeBusca1.button1,Continue
+Token05_Busca2.text,Há vários beckers e frascos com conteúdos coloridos. Você se pergunta se são apenas líquidos com corante...
+Token05_Busca2.button1,Procurar {action}
+Event05_removeBusca2.text,Lendo cuidadosamente cada etiqueta, parece que alguém deixou passar um frasco com conteúdo real.\n\nReceba o item {c:QItem05_ExtratoOcular} e remova este marcador de busca.
+Event05_removeBusca2.button1,Continue
+Event05_usarExtrato.text,Você ou outro investigador no seu espaço (ou espaço adjacente) devem imediatamente usar o item {c:QItem05_ExtratoOcular} e descartar a carta.
+Event05_usarExtrato.button1,Tomar Extrato
+Event05_descartarExtrato.text,Ao tomar o extrato, você sente uma tontura. O gosto é tão amargo que você fecha os olhos firmemente. \n\nAo abrí-los novamente, algo mudou. É como se houvesse uma película de uma cor que você não consegue distinguir.\n\nSua cabeça lateja, enquanto lampejos de uma outra dimensão parecem se mesclar à nossa.\n\nSofra 2 horrores (negados por {will}).
+Event05_descartarExtrato.button1,Continue
+Event05_avisoExtrato.text,<b>A partir de agora, o investigador que tomou o extrato poderá fazer um teste de observação em cada sala que entrar para tentar vislumbrar coisas de outro mundo.</b>\n\nO investigador que tomou deve testar ({observation}; 2).
+Event05_avisoExtrato.button1,PASSOU!
+Event05_avisoExtrato.button2,FALHOU...
+Token05_Busca3.text,O conteúdo do mostruário parece sussurrar em seus ouvidos palavras ancestrais.
+Token05_Busca3.button1,Procurar {action}
+Event05_extratoSUCCESS.text,Algo brilha dentro do mostruário de vidro. \n\nColoque um marcador de busca como indicado.
+Event05_extratoSUCCESS.button1,Continue
+Event05_removeBusca3.text,Você percebe que o mostruário está destrancado. Dentro dele, algo que pode ser útil na investigação.\n\nReceba o item {c:QItem05_Relic} e remova este marcador de busca.
+Event05_removeBusca3.button1,Continue
+Event05_extratoFAIL.text,Visões de espirais em púrpura e verde te confundem a cada piscar de olhos. Fique Atordoado.
+Event05_extratoFAIL.button1,Continue
+Event06_Busca1.text,Um objeto que emite certo brilho se encontra em cima da mesa.\n\nColoque um marcador de busca como indicado
+Event06_Busca1.button1,Continue
+Token06_Busca1.text,Um objeto enrolado em um tecido antigo.
+Token06_Busca1.button1,{action} Procurar
+Event06_Busca2.text,Atrás da mesa de mármore branco, há um armário entalhado com inúmeras gavetas.\n\nColoque um marcador de busca como indicado.
+Event06_Busca2.button1,Continue
+Token06_Busca2.text,Um armário entalhado com inúmeras gavetas. Parece ser um arquivo.
+Token06_Busca2.button1,{action} Procurar
+Event06_Busca3.text,De frente à porta principal do gabinete, uma estante de madeira maciça guarda livros e objetos arqueológicos.\n\nColoque um marcador de busca como indicado.
+Event06_Busca3.button1,Continue
+Token06_Busca3.text,A estante está repleta de livros que parecem raros, estátuas e outros artefatos arqueológicos.
+Token06_Busca3.button1,{action} Procurar
+Event06_placeTokensExtrato.text,Você observa o gabinete com atenção (teste {observation}; 2).
+Event06_placeTokensExtrato.button1,PASSOU!
+Event06_placeTokensExtrato.button2,FALHOU...
+Event06_ExtratoSUCCESS.text,"Seres que parecem medusas fluorescentes ""nadam"" no ar por todo o gabinete. Eles atravessas os objetos, as paredes, e até mesmo o Professor Smith. O Professor parece enxergar tudo o que você também está vendo, mas de alguma forma ele é capaz de ignorar a situação.\n\nAtrás dele, a moldura de um quadro brilha de maneira incomum.\n\nColoque um marcador de interação como indicado."
+Event06_ExtratoSUCCESS.button1,Continue
+Token06_Inter1.text,Algo atrás deste quadro está emitindo um brilho violeta. A luz vaza pelas frestas onde a moldura quase encosta na parede.
+Token06_Inter1.button1,{action} Interagir
+Event06_ExtratoFAIL.text,"Seres que parecem medusas brilhantes ""nadam"" no ar por todo o gabinete. Eles atravessas os objetos, as paredes, e até mesmo o Professor Smith. O Professor parece enxergar tudo o que você também está vendo. Ele olha para você e sorri com um esgar estranho. Suas feições lembram a de um peixe!\n\nSofra 1 horror (negado por {will}), então sofra 1 horror voltado para baixo."
+Event06_ExtratoFAIL.button1,Continue
+Token06_ProfSmithExtrato.text,Professor Smith parece observar o fundo de sua alma. Ele não para de sorrir.
+Token06_ProfSmithExtrato.button1,{action} Puxar conversa
+Event06_SmithPuto.text,"Você tenta entrar pé ante pé, mas um senhor altivo bloqueia sua passagem:\n\n""<i>Quem você pensa que é para invadir meu gabinete desse jeito?</i>""\n\nColoque um marcador de pessoa como indicado. Este é Professor Smith."
+Event06_SmithPuto.button1,Continue
+Token06_SmithArrombado.text,O homem tem um olhar penetrante capaz de gelar suas entranhas.\n\nEscolha o modo como você quer conduzir a conversa de acordo com o atributo listado nas opções abaixo.
+Token06_SmithArrombado.button1,{action} Intimidação ({strength})
+Token06_SmithArrombado.button2,{action} Erudição ({lore})
+Event06_SmithLisonjeado.text,"""<i>Desculpe, Professor. Eu só queria conversar com o senhor sobre sua pesquisa, tenho muito interesse em fazer parte do seu grupo, pois já li todos os seus artigos e...</i>"" \nvocê diz rapidamente, sem tomar fôlego. \n\nSmith te olha desconfiado e interrompe: \n\n""<i>E você pretendia me dizer tudo isso após arrombar minha sala?</i>""\n\nTeste {influence} (3)."
+Event06_removeBusca1Blocked.text,Você não acha prudente mexer nas coisas do Professor com ele dentro da sala.\n\nVocê não gasta esta ação...
+Event06_removeBusca1Blocked.button1,Continue
+Event06_removeBusca2Blocked.text,Você não acha prudente mexer nas coisas do Professor com ele dentro da sala.\n\nVocê não perde esta ação.
+Event06_removeBusca2Blocked.button1,Continue
+Event06_removeBusca3Blocked.text,Você não acha prudente mexer nas coisas do Professor com ele dentro da sala.\n\nVocê não perde esta ação.
+Event06_removeBusca3Blocked.button1,Continue
+Event06_removeInter1Blocked.text,Você não acha prudente mexer nas coisas do Professor com ele dentro da sala.\n\nVocê não perde esta ação.
+Event06_removeInter1Blocked.button1,Continue
+Event06_Q1Q2.text,"""O que você quer?"""
+Event20_wakingUp1.button1,Continue
+Event20_wakingUp2.text,"""<i>O homem é doido</i>"", você pensa. Ele continua:\n\n""<i>Para provar o seu valor e demonstrar boa-fé, você deve ser iniciado em um rito ancestral em homenagem a uma antiga criatura alienígena de uma raça conhecida como ""os celestiais"". A igreja, com sua sede de poder e dinheiro, inventou uma mitologia barata sobre os celestiais e usou o caminho mais fácil de angariar fiéis: criar um inimigo em comum a ser combatido.</i>"""
+Event20_wakingUp1.text,"Ao escutar um estalar de dedos, você acorda de um transe que não sabe como entrou em um lugar que não se lembra de ter vindo. O local é uma sala escura, mal iluminada por velas, com uma pedra no centro que mais parece um altar de sacrifício. Professor Smith coloca a mão em seu ombro, olha diretamente em seus olhos e diz:\n\n""<i>Arqueologia envolve ritos antigos. Se você é incapaz de absorver uma cultura e participar de seus rituais, nunca será um bom arqueológo. O mundo é mais misterioso do que aparenta, e os céticos devem ser eliminados para que o desbloqueio das capacidades da mente humana atinja o seu ápice.</i>"""
+Event06_removeBusca1.text,Cuidadosamente, você remove o tecido gasto e o brilho que emana do objeto coberto aumenta.\n\nReceba o item {c:QItem06_EstatuaGrotesca} e descarte este marcador de busca.
+Event06_removeBusca1.button1,Continue
+Event06_removeBusca2Foto.text,"Você revira as gavetas em busca de algo. Há muitos artigos datilografados e anotações de pesquisa que não lhe fazem sentido. No meio de uma pasta, uma foto cai no chão. Ao olhá-la atentamente, você reconhece o mesmo homem da foto que achou no quarto de Gwen ao lado de outros homens bem-vestidos. Atrás, uma placa grande de madeira com ""Ordem do Crepúsculo Prateado"" entalhado. Atrás da foto, um número: 1312.\n\nReceba o item {c:QItem06_ConclusiveEvd} e remova este marcador de busca.\n"
+Event06_removeBusca2Foto.button1,Continue
+Event06_Fotos.text,É óbvio que Professor Smith está envolvido no sumiço de Gwen e faz parte da Ordem do Crepúsculo Prateado. Você precisa se apressar para salvar a garota antes que seja tarde...\n\nReceba 1 pista {clue}. 
+Event06_Fotos.button1,Continue
+Event06_removeBusca2.text,Você revira as gavetas e só encontra artigos científicos e anotações que não lhe são compreensíveis. Ao mexer em uma pasta, um pequeno objeto cai no chão.\n\nReceba o item {c:QItem06_SeloCulto} e remova esta marcador de busca.
+Event06_removeBusca2.button1,Continue
+Event06_removeBusca3.text,Um dos livros parece estar fora de lugar. Você o remove da prateleira para olhar melhor.\n\nReceba o item {c:QItem06_MedicalText} e remova este marcador de busca.
+Event06_removeBusca3.button1,Continue
+Event06_removeInter1.text,Ao mover o quadro, você encontra um cofre atrás dele. Com sua percepção aumentada devido ao extrato que tomou anteriormente, parece fácil adivinhar a combinação correta.\n\n<b>O investigador que tiver tomado o extrato pode usar quantos movimentos forem necessários para resolver o desafio utilizando apenas uma ação.</b>
+Event06_removeInter1.button1,Continue
+Puzzle06_Inter1.button1,Tentar
+Event06_removeSmithExtrato.button1,Continue
+Event06_removeSmithExtrato.text,"Você pergunta ao Professor Smith o porquê dele estar lhe encarando de forma esquisita. Ele responde calmamente:\n\n<i>Todos estamos em sintonia. Somos um. Você vê o que eu vejo, eu vejo o que você vê. Tudo o que vemos é o que eles veem.</i>\n\nSem mais nem menos, Professor Smith sai da sala. No caminho, ele olha por sobre os ombros, com o mesmo sorriso assustador. Antes de bater a porta, ele olha bem dentro dos seus olhos e diz:\n\n""<i>Lembre-se, somos todos um...</i>""\n\nSofra 1 horror voltado para baixo (negado por {will}) e remova o Professor Smith do tabuleiro."
+Event04_placeWall.text,Coloque uma parede como indicado.
+Event04_placeWall.button1,Continue
+Token04_GuardaA.text,O homem dorme, alheio ao que acontece ao seu redor.
+Token04_GuardaA.button1,Continue
+Token04_GuardaB.text,O guarda está com a mão sobre o coldre de seu revólver, irritado por ter sido acordado de madrugada.
+Token04_GuardaB.button1,Continue
+Token04_GuardaC.button2,{action} Convencê-lo
+Token04_GuardaC.button3,{action} Atacá-lo
+Event04_provocarGuarda.text,Você começa a proferir impropérios, ofendendo a honra do guarda e de todas as gerações de sua família esperando que ele saia. Ele fica incomodado e faz menção de sair, mas continua do lado de dentro, te encarando.
+Event04_provocarGuarda.button1,Continue
+Token04_guardaFurioso.text,O guarda se move para mais perto da porta e encosta o rosto no vidro. Seu olhar é extremamente incômodo.
+Token04_guardaFurioso.button1,{action} Provocá-lo
+Event04_provocarGuardaFurioso.text,O guarda finalmente perde a paciência e sai do museu.\n\nMova o marcador de pessoa do guarda como indicado.
+Event04_provocarGuardaFurioso.button1,Continue
+Event04_GuardaSaiu.button1,Continue
+Event04_GuardaEnfurecidoLuta.text,Agitado, ele grita palavras em uma língua que você é incapaz de compreender e parte para cima de você.\n\nRemova o marcador de pessoa do guarda e faça surgir um Discípulo de Dagon.
+Event04_GuardaSaiu.text,O rosto do guarda está vermelho, ele está bem agitado e com as pupilas muito dilatadas. Pela primeira vez você tem a oportunidade de ver suas feições na claridade da luz do poste. São inumanas!\n\nTeste {will} (2). Se falhar, sofra 1 horror virado para baixo.
+Event04_GuardaEnfurecidoLuta.button1,Continue
+Token04_guardaFurioso.button2,{action} Atacá-lo
+Event04_AtacarGuardaFurioso.text,Você procura no chão ao seu redor e encontra uma pedra próxima. Sem pensar muito, você a pega e joga diretamente contra o vidro.\n\nO vidro não quebra, mas a atitude foi suficiente para causar uma reação...
+Event04_AtacarGuardaFurioso.button1,Continue
+Event04_convencerGuarda.text,Você tenta apelar para a razão mais uma vez e se aproxima do vidro, pedindo para conversar com ele.\n\nTeste {influence} (3).
+Event04_convencerGuarda.button1,PASSOU!
+Event04_convencerGuarda.button2,FALHOU...
+Event04_convencerGuardaSUCCESS.text,Você explica que uma colega sua sumiu e que o Professor estava incomunicável, por isso você havia tentado entrar na sala à força.\n\nO guarda coça o queixo e você repara em suas feições inumanas evidenciadas pela incidência da luz do poste (sofra 1 horror negado por {will}). Ele não parece ser muito esperto.\n\nSem muito interesse em sua história, o guarda simplesmente destranca a porta e volta ao seu posto.\n\nRemova o marcador de interação e mova o guarda para seu posto anterior. Ele volta a dormir e você pode continuar sua investigação.
+Event04_convencerGuardaSUCCESS.button1,Continue
+Event04_convencerGuardaFAIL.text,O guarda já aguentou o suficiente vindo de você. Ele sai do museu para acertar as contas...
+Event04_convencerGuardaFAIL.button1,Continue
+Spawn03_DiscipuloDagon.text,A criatura parece resultado de uma união profana entre humanos e serer marinhos...
+Spawn03_DiscipuloDagon.button1,Continue
+Event04_DiscDagonDerrotado.text,A criatura cai, inerte. Em seu coldre, um revólver totalmente carregado. Parece que nunca foi utilizado.\n\nReceba o item {c:QItem04_Revolver38} e remova o marcador de interação da porta do museu. Você pode continuar sua investigação.
+Event04_DiscDagonDerrotado.button1,Continue
+Event04_puzzleSolved.text,CLICK!
+Event04_puzzleSolved.button1,Continue
+Event06_SmithIntimidado.text,"Você não se deixa intimidar pelo olhar gélido do Professor e o acusa:\n\n""<i>Eu sei que você tem algo a ver com o sumiço de Gwen, e você vai me contar tudo agora.</i>""\n\nTeste {strength} (3)."
+Event06_SmithIntimidado.button1,PASSOU!
+Event06_SmithIntimidado.button2,FALHOU...
+Event06_SmithIntimidadoFAIL.text,"O Professor não se deixa intimidar e grita:\n\n""<i>Guarda, estou sendo atacado!</i>"""
+Event06_SmithIntimidadoFAIL.button1,Continue
+Event06_GuardaChamado.text,O guarda sai de seu posto rapidamente ao chamado do Professor Smith e corre em sua direção.\n\nRemova o marcador de pessoa do guarda.
+Event06_GuardaChamado.button1,Continue
+Spawn06_DiscipuloDagon.text,Ele se prepara para lhe atacar e você percebe, talvez tarde demais, que o guarda insuspeito não é completamente humano.\n\nGanhe 1 pista {clue}.\n\nFaça surgir um Discípulo de Dagon no espaço do seu investigador.
+Spawn06_DiscipuloDagon.button1,Continue
+Event06_SmithIntimidadoSUCCESS.text,Você vê o assombro tomar conta do rosto do Professor Smith. Dá para ver que ele foi pego desprevinido. Antes que você possa argumentar, ele tira algo do bolso e joga no chão.
+Event06_SmithIntimidadoSUCCESS.button1,Continue
+Event06_SmithIntimidadoFOGE.button1,Continue
+Event06_SmithLisonjeadoSUCCESS.text,"Você inventa mil e uma desculpas, diz que ouviu um barulho estranho dentro da sala e que, como o guarda não se prontificou a ajudar, você se preocupou com algo ter acontecido ao Professor e resolveu tomar esta atitude impensada. Porém, agora havia ficado tranquilo por se certificar de que tudo estava bem...\n\nProfessor Smith pareceu engolir seu argumento, mas ainda está com um olhar desconfiado. Secamente, ele lhe diz:\n\n""<i>As posições no meu grupo de pesquisa são muito disputadas. Devo ter vagas muito em breve, pois duas de minhas alunas estão em processo de finalização de suas atividades. Por favor, entre em contato novamente a partir da próxima semana... Agora deixe-me trabalhar em paz, por favor.</i>""\n\nGanhe 2 pistas {clue}.\n\nProfessor Smith volta para sua mesa, senta-se, e passa a lhe ignorar (mova o Professor Smith para o local indicado)."
+Event06_SmithIntimidadoFOGE.text,Um objeto impacta no chão e libera uma fumaça que lhe impede de ver o que está acontecendo.\n\nFique <b>confuso</b> e remova o Professor Smith da sala.
+Event06_SmithLisonjeadoSUCCESS.button1,Continue
+Token06_SmithLisonjeado.text,Professor Smith está compenetrado lendo um tomo denso com capa de couro. Ele ignora sua presença completamente.
+Token06_SmithLisonjeado.button1,Continue
+Event06_SmithLisonjeadoFAIL.text,Você não consegue pensar em nada para dizer que possa convencer o homem de suas boas intenções. Subitamente, Professor Smith lança uma bengala em direção a sua cabeça (teste {agility}; 2). Se falhar, sofra 1 dano e fique <b>atordoado</b>.
+Event06_SmithLisonjeadoFAIL.button1,Continue
+Spawn06_SmithBruxo.text,Os olhos do Professor Smith brilham como se estivessem em chamas.\n\nRemova o marcador de pessoa do Professor Smith e coloque um Sacerdote de Dagon como indicado.
+Spawn06_SmithBruxo.button1,Continue
+Event06_SmithDerrotado.text,Professor Smith recua. Ele deixa algo cair no chão...\n\nGanhe o item {c:QItem06_ManuscritoArcano}.
+Event06_SmithDerrotado.button1,Continue
+Token06_SmithPuto.text,Professor Smith não parece feliz em lhe rever.
+Token06_SmithPuto.button1,{action} Perguntar sobre Gwen
+Token06_SmithPuto.button2,{action} Oferecer mão de obra
+Event06_SmithPutoTalk1.text,"""<i>Desculpe interrompê-lo, mas gostaria de fazer uma pergunta. Quem me encaminhou ao senhor foi uma amiga, Gwen, mas não consigo falar com ela há dias...</i>""\n\nProfessor Smith te olha com ainda mais desconfiança (teste {influence}; 2)."
+Event06_SmithPutoTalk1.button1,PASSOU!
+Event06_SmithPutoTalk1.button2,FALHOU...
+Event06_SmithPutoTalk1_SUCCESS.button1,Continue
+Event06_SmithPutoTalk1_OUT.text,"<i>Agora, se você puder me dar licença... Tenho assuntos urgentes a resolver.</i>""\n\nSem dizer mais nada, Professor Smith simplesmente sai da sala com um semblante preocupado.\n\nRemova o marcador de pessoa do Professor Smith."
+Event06_SmithPutoTalk1_SUCCESS.text,"""<i>Veja...</i>"", ele responde calmamente, ""<i>que tipo de arqueóloga eu formaria se deixasse Gwen enfiada em um gabinete? Arqueologia envolve muito estudo, certamente, mas também é necessário trabalho de campo. Eu enviei Gwen para verificar uma descoberta que ainda não posso revelar detalhes, ainda mais para você. Talvez quando, e se, você vier a trabalhar conosco, eu lhe conte mais a respeito.</i>""\n\nGanhe 1 pista {clue}. "
+Event06_SmithPutoTalk1_OUT.button1,Continue
+Event06_placeTokensSmithOUT.text,Intrigante... Parece a oportunidade ideal para vasculhar a sala.\n\nColoque os marcadores de busca como indicado.
+Event06_placeTokensSmithOUT.button1,Continue
+Event06_SmithPutoTalk1_FAIL.text,"Sem levantar o olhar de seu livro, Professor Smith lhe responde secamente:\n\n""<i>Tampouco eu consigo falar com ela há dias. Gwen já foi uma aluna melhor... Agora retire-se de minha sala, por favor.""</i>\n\nMova o marcador de pessoa do Professor Smith para detrás de sua mesa como indicado."
+Event06_SmithPutoTalk1_FAIL.button1,Continue
+Event06_SmithPutoTalk2.text,"""<i>Professor, desculpe a insistência. Eu realmente admiro seu trabalho. Li todos os seus artigos várias vezes, sua pesquisa é fascinante. Duvido que o senhor não tenha absolutamente nada para eu fazer. Por favor, me deixe trabalhar para o senhor!</i>""\n\nSmith tira o semblante sério do rosto. Ele parece genuinamente envaidecido. O Professor então lhe pergunta:\n\n""<i>Se você leu tudo mesmo e tem tanto interesse, o que você achou de minha teoria dos portais tempo-espaciais esquecidos?</i>""\n\nTeste {lore} (3)."
+Event06_SmithPutoTalk2.button1,PASSOU!
+Event06_SmithPutoTalk2.button2,FALHOU...
+Event06_SmithPutoTalk2_SUCCESS.text,"Por sorte, você havia lido este artigo recentemente devido a uma investigação sobre rituais arcanos. Você discute efusivamente com o Professor. Ele se anima com o conhecimento que você demonstra sobre sua própria obra.\n\n""<i>Certamente eu tenho algo para você... Me acompanhe!</i>""\n\nProfessor Smith então abre um cofre na parede atrás de uma pintura e retira uma runa. O objeto brilha forte, emitindo uma luz que te faz sentir tontura.\n\nTudo fica escuro..."
+Event06_SmithPutoTalk2_SUCCESS.button1,Continue
+Event06_SIDEQUEST_TesteDoCulto.text,Coloque a peça de mapa {c:Tile20_altarCerimonial} e mova tanto seu investigador quanto o Professor Smith para lá... 
+Event06_SIDEQUEST_TesteDoCulto.button1,Continue
+Token20_SmithCerimonial.text,O Professor está vestido em trajes cerimoniais finos, com um chapéu ornamentado na cabeça e um cetro dourado nas mãos.
+Token20_SmithCerimonial.button1,{action} Ataque-o!
+Event20_wakingUp2.button1,Continue
+Event20_wakingUp3.text,O Professor é interrompido pelo abrir da porta. Um homem vestindo um robe luxuoso com um capuz cobrindo seu rosto entra na sala, acompanhando uma moça jovem, vestida de garçonete, que parece estar no mesmo transe em que você se encontrava. A moça parece estar se movendo involuntariamente. Ela se deita na pedra no centro da sala e desabotoa os três botões superiores de sua camisa.\n\nColoque um marcador de pessoa rosa no altar de sacrifício conforme indicado.
+Event20_wakingUp3.button1,Continue
+Token20_PinkWoman.text,A moça está de olhos fechados e parece estar em transe.
+Token20_PinkWoman.button1,{action} Sacrifique-a
+Event20_sacrificioRosa.text,"Você empunha o punhal ritualístico com ambas as mãos e, sem pestanejar, o crava no meio do peito da moça. Ela não grita, nem resiste. \n\n""<i>Ave, Lúcifer!</i>"", entoam em uníssono o Professor e o homem aos pés do altar.\n\nUm suspiro fraco e a descontração dos membros da moça indicam que o fim chegou para ela."
+Event20_sacrificioRosa.button1,Continue
+Event20_Expl1.text,Há uma porta de madeira velha do outro lado do altar.\n\nColoque o marcador de exploração como indicado.
+Event20_Expl1.button1,Continue
+Token20_Expl1.button1,Continue
+Event20_Cultista.text,O homem que trouxe a moça tranca a porta logo atrás dele e se posiciona aos pés do altar.\n\nColoque um marcador de pessoa como indicado.
+Token20_Expl1.text,Uma porta de madeira velha. Você não sabe se chegou por esta porta ou pela outra...
+Event20_Cultista.button1,Continue
+Token20_GreyPerson.text,O homem está compenetrado, olhando fixamente para baixo.
+Token20_GreyPerson.button1,Continue
+Event20_Sacrificio.text,"Professor Smith lhe entrega um objeto enrolado em um tecido fino e finaliza:\n\n""<i>Chegou a hora. Sacrifique esta moça em oferenda àquele a quem os covardes chamam de demônio.</i>""\n\nReceba o item {c:QItem20_PunhalRitual}.\n\nVocê agora tem que tomar uma decisão..."
+Event20_Sacrificio.button1,Continue
+Event20_AtaqueProf.text,"""<i>Como eu previa, mais um idiota voluntarioso...</i>"", diz Professor Smith, antes de gira o cetro em sua direção e acertar seu braço. O punhal ritualístico cai no chão.\n\nLargue o item {c:QItem20_PunhalRitual} no seu espaço."
+Event20_AtaqueProf.button1,Continue
+Event20_inimigos.text,O Professor avança em sua direção, com uma habilidade espantosa para um homem de sua idade.\n\nRemova o marcador de pessoa do Professor Smith do tabuleiro.
+Event20_inimigos.button1,Continue
+Spawn20_SacerdoteDagon.text,Faça surgir um Sacerdote de Dagon no local.
+Spawn20_SacerdoteDagon.button1,Continue
+Event20_inimigos2.text,O homem, que até então parecia estar em transe, caminha ameaçadoramente em sua direção.\n\nRemova o marcador de pessoa do Homem Cinza do tabuleiro.
+Event20_inimigos2.button1,Continue
+Spawn20_Cultista.text,Faça surgir um cultista no local indicado.
+Spawn20_Cultista.button1,Continue
+Event20_SmithDerrotado.button1,Continue
+Event20_FIM_semSacrificio.text,"Uma nuvem de insetos preenche o ar antes do Professor evanescer com se nunca tivesse existido. Um grito gutural que parece ter vindo de outra dimensão ecoa na câmara. O cultista, em pânico, corta a própria garganta. Instantaneamente, a moça sai do transe e se senta na pedra, confusa.\n\n""<i>Quem é você?</i>"", ela pergunta.\n\nDerrote automaticamente o cultista e remova o marcador de pessoa da moça de rosa do tabuleiro."
+Event20_SmithDerrotado.text,"O Sacerdote cai no chão, levando as mãos ao peito. \n\n""<i>Impossível...</i>"", ele diz. É a última coisa que você escuta sair de seus lábios."
+Event20_FIM_semSacrificio.button1,Continue
+Token06_ProfSmith.button1,Continue
+Event06_SmithPutoTalk2_FAIL.text,"Em um lapso, você confunde as teorias do Professor com as de seu arqui-inimigo acadêmico. Um erro fatal...\n\n""<i>Confundir meu trabalho com o do Professor Geller? Inadmissível! Saia de minha sala agora, imbecil, antes que você se arrependa.</i>""\n\nProfessor Smith lhe deixa falando sozinho enquanto retorna a sua mesa.\n\nMova o marcador de pessoa do Professor Smith como indicado."
+Event06_SmithPutoTalk2_FAIL.button1,Continue
+Event06_Q1Q2.button1,{action} Gostaria de perguntar sobre uma aluna sua...
+Event06_Q1Q2.button2,{action} Gostaria de discutir sua pesquisa...
+Event06_Q1_USED.text,<i>Qual aluna? Eu tenho várias estudantes sob minha orientação...</i>
+Event06_Q1_USED.button1,Gwen Bechman
+Event06_Q1_USED.button2,Naomi
+Event06_Q1_USED.button3,Gwen e Naomi
+Event06_Q1_GwenNaomi.text,Você é algum tipo de pervertido? Para começar, você ia perguntar sobre uma aluna. Agora, menciona dois nomes femininos. Saia de minha sala agora!
+Event06_Q1_GwenNaomi.button1,Não vou sair daqui sem respostas...
+Event06_Q1_GwenNaomi.button2,Desculpe-me, podemos tentar novamente?
+Event06_Q1_Naomi.text,Tenho cara de diretório estudantil? Deixe de perder o meu tempo e vá ocupar-se tempo com algo útil. A biblioteca fica ao lado...
+Event06_Q1_Naomi.button1,Continue
+Event06_Q1_Gwen.text,A srta. Bechman foi uma de minhas melhores alunas. Até não ser mais... A pobre jovem ficou obcecada com um livro que um outro professorzinho metido à galã indicou para ela após as aulas e deixou de lado minha pesquisa.\n\nGanhe 1 pista {clue}.
+Event06_Q1_Gwen.button1,Que professor?
+Event06_Q1_Gwen.button2,Que livro?
+Event06_Q1_Gwen_livro.text,Uma obra de fantasia respeitada apenas por charlatães chamada de Necronomicon. Enfim, esta peça de ficção é reverenciada como sendo um manual místico e ocultista. Nada comparado ao poder da minha pesquisa.\n\nGanhe 1 pista {clue}.
+Event06_Q1_Gwen_livro.button1,E você sabe por onde anda Gwen?
+Event06_Q1_Gwen_livro2.text,Deve estar se engraçando com o Professor Geller. Não me importa mais. Cada um tem o futuro que merece.
+Event06_Q1_Gwen_livro2.button1,Continue
+Event06_Q1_Gwen_professor.text,Me dá até azia lembrar do nome deste insignificante. Geller é o nome dele. Agora não me aborreça mais, por favor. Retire-se e, ao sair, feche a porta.\n\nGanhe 1 pista {clue}.
+Event06_Q1_Gwen_professor.button1,Continue
+Event06_Q2_USED.text,"""<i>Ah, mais um reconhecedor do meu trabalho</i>"", Professor Smith diz enquanto se recosta em sua cadeira.\n\n""<i>Vamos lá, tudo começou na África. Eu estava em uma expedição com Padre Merrin, um homem em conflito com sua fé...""</i>\n\nO Professor gasta mais de uma hora lhe descrevendo os portais tempo-espaciais, rachaduras na fina malha da realidade que, com os rituais corretos, permitem o acesso à dimensões ancestrais muito esquecidas. No passado, tais rituais foram utilizados para invocar seres dessas dimensões e algo deu errado. A chegada desses seres ao nosso planeta deu origem às mitologias religiosas sobre a existência de demônios.\n\nGanhe 1 pista {clue}."
+Event06_Q2_USED.button1,Interessante...
+Event06_Q2_pesquisa.button1,Continue
+Event06_Q1.button1,{action} Gostaria de perguntar sobre uma aluna sua...
+Event06_Q2.button1,{action} Gostaria de discutir sua pesquisa...
+Event06_Q2_pesquisa.text,"Professor Smith é o maior especialista neste assunto, e sua mágoa com o resto do corpo docente é grande.\n\n""<i>Me tratam como um lunático. Se não fosse minha amizade de longa data com a reitora, provavelmente algum desses outros professores ignóbeis já teria forçado a minha aposentadoria. Lunáticos são eles, fadados a enxergar apenas o espectro com dimensões limitadas no qual estão presos. Olha, foi realmente muito interessante lhe conhecer, mas tenho uma reunião no centro da cidade agora. Volte para conversarmos mais vezes...</i>""\n\nProfessor Smith lhe dá um caloroso aperto de mão e sai da sala. Você se espanta com a confiança do homem. Agora você está livre para investigar o gabinete...\n\nGanhe 1 pista {clue} e remova o marcador de pessoa do Professor Smith do jogo."
+Event06_Q1.text,<i>Hm, e em que mais posso lhe ajudar?</i>
+Event06_Q2.text,O Professor cruza as mãos sobre a mesa e lhe encara.
+Event06_cofreAberto.text,Dentro do cofre, você encontra uma coleção de canetas tinteiro e vários papéis. Folheando-os com certa pressa, o cabeçalho de um documento lhe chama a atenção. Trata-se de um papel antigo, com o selo da Ordem do Crepúsculo Prateado. Nele, a informação de que encontraram a criança que servirá de ponte entre as dimensões, e que a guarda dela caberia ao membro da Ordem Richard Bechman, apadrinhada pelo membro Edwin Smith. O documento data de 20 anos atrás... \n\nReceba o item {c:QItem06_MissingLink} e fique <b>compenetrado</b>.\n\nTeste {will} (2).
+Event06_cofreAberto.button1,PASSOU!
+Event06_cofreAberto.button2,FALHOU...
+Event06_Inter1Teste_SUCCESS.button1,Continue
+Event06_Inter1Teste_FAIL.text,Você dá uma última olhada no interior do cofre, mas não encontra nada mais...\n\nRemova o marcador de interação.
+Event06_Inter1_Tunel.text,Remova o marcador de interação e coloque um marcador de passagem secreta no local indicado.
+Event06_Inter1_Tunel.button1,Continue
+Token06_PassagemSecreta_para20.text,Você pode usar esta passagem secreta para se movimentar até o outro lado.
+Token06_PassagemSecreta_para20.button1,Continue
+Event20_TunelDeInter1_06.text,Você caminhou por cerca de meia hora até chegar a uma porta. Dá para ver algumas luzes bruxuleando pelas frestas.\n\nColoque um marcador de passagem secreta como indicado e a peça de mapa {c:Tile20_altarCerimonial}.
+Event20_TunelDeInter1_06.button1,Continue
+Token20_PassagemSecreta_de06.text,Você pode usar esta passagem secreta para se movimentar até o gabinete do Professor Smith.
+Token20_PassagemSecreta_de06.button1,Continue
+Event06_Inter1Teste_SUCCESS.text,Você dá uma última olhada no interior do cofre e enxerga uma pequena elevação no fundo da prateleira inferior. Você a pressiona. CLICK.\n\nUm ruído baixo de engrenagens se movendo revela uma porta atrás da parede falsa. Você passa pela porta e começa a caminhar por um túnel escuro.\n\nO investigador no túnel que não estiver em posse de uma fonte de luz sofre 1 horror (negado por {will}).
+Event06_Inter1Teste_FAIL.button1,Continue
+Event20_SacrificioDeNaomi.text,Ao entrar na sala, a visão te atordoa: uma jovem moça está deitada em um altar, rodeada por grossas velas acesas.\n\nColoque o marcador de pessoa de Naomi O'Bannion como indicado.
+Event20_SacrificioDeNaomi.button1,Continue
+Token20_NaomiDeitada.text,A moça não se move e não abre os olhos, mas ainda respira.
+Token20_NaomiDeitada.button1,Continue
+Event20_CultistaAltar.text,Um homem vestido em robes balbucia palavras ininteligíveis ao pé do altar, como se estivesse em um transe... Você olha bem para o rosto dele e o reconhece: este é Richard Bechman, pai de Gwen!\n\nColoque o marcador de pessoa de Richard Bechman como indicado.
+Event20_CultistaAltar.button1,Continue
+Token20_RichardCultista.button1,{Action} Interagir com Richard
+Event20_TalkToRichard1.button1,Continue
+Event20_ProfSmith.text,Na cabeceira do altar, você quase não o reconhece: Professor Smith, em trajes cerimoniais. Ele parece estar sendo tomado por alguma força incompreensível, mas o barulho de sua chegada interrompe o que quer que ele estivesse fazendo...\n\nColoque o marcador de pessoa do Professor Smith como indicado.
+Event20_ProfSmith.button1,Continue
+Token20_RichardCultista.text,Richard está com o cenho franzido e olhos fortemente apertados, balbuciando frenéticamente palavras forâneas. Parece uma mistura de reza e cântico.\n\nVocê tenta tirá-lo do transe...
+Event20_TalkToRichard2.text,Você mostra para Richard a foto que encontrou, colocando-a em frente de seu rosto abaixado. Lágrimas começam a rolar de seus olhos. Ele imediatamente sai do transe...
+Event20_TalkToRichard.button1,Button1
+Event20_TalkToRichard_NoPhoto.text,Richard está com o cenho franzido e olhos fortemente apertados, balbuciando frenéticamente palavras forâneas. Parece uma mistura de reza e cântico.\n\nVocê tenta tirá-lo do transe...
+Event20_TalkToRichard2.button1,Continue
+Event20_TalkToRichard3.text,Sem opções, você estapeia Richard no rosto. O transe é quebrado, mas Richard está furioso.\n\nTeste {strength} (2); se passar, quando o Cultista surgir ele recebe 1 de dano.\n\nRemova o marcador de pessoa de Richard Bechman e faça surgir um Cultista no local indicado.
+Token20_RichardAmigo.text,Richard emudece. Ele te olha assustado, porém dá a entender que está do seu lado.\n\nRichard pode fazer ataques para ajudar um investigador em combate. Para qualquer teste de perícia necessário, ele rola 2 dados e, em caso de acerto, dá 1 de dano no inimigo.\n\nNa fase dos monstros, Richard também é atacado. Ele possui 2 pontos de vida e 2 pontos de sanidade.
+Token20_RichardAmigo.button1,Continue
+Event20_TalkToRichard3.button1,Continue
+Event20_TalkToRichard_NoPhoto.button1,{action} Onde está sua filha?
+Event20_TalkToRichardALL.button1,Button1
+Event20_TalkToRichard1.text,"""<i>O que é isso, sr. Bechman? Onde está sua filha?</i>""\n\nRichard continua recitando as palavras estranhas, agora em uma velocidade impressionante. O homem está suando muito. Ele parece estar em um estado de febre."
+Event20_TalkToRichard_NoPhoto.button2,{action} Tentar acordá-lo do transe.
+Event20_TalkToRichard_2e3.button1,{action} Confrontá-lo com a foto
+Event20_TalkToRichard_2e3.text,Você se coloca na frente de Richard...
+Event20_TalkToRichard_2e3.button2,{action} Tentar tirá-lo do transe
+Event20_TalkToRichard_NOOPT.text,Não há mais espaço para conversa.
+Event20_TalkToRichard_NOOPT.button1,Continue
+Token20_expl1_OPEN.text,Talvez seja um bom momento para se evadir dos inimigos, ou derrotá-los, e fugir junto com a moça...
+Token20_expl1_OPEN.button1,{action} Fugir...
+Event20_FugaComRosa.text,Se os inimigos ainda estiverem vivos, faça um teste de evasão para cada um deles. Caso contrário, remova este marcador de interação.
+Event20_FugaComRosa.button1,Continue
+Event04_Dinossauro.text,Você nota um brilho no salão ao lado. É incrível. Parece uma espiral de cores de outro mundo dançando ao redor do esqueleto de dinossauro.\n\nColoque um marcador de interação como indicado.
+Event04_Dinossauro.button1,Continue
+Token04_Dino_CLOSED.text,Um pequeno rasgo no tecido da realidade.
+Token04_Dino_CLOSED.button1,Continue
+Event06_SmithExtratoJournal.text,Ao sair da sala, você nota que Professor Smith deixou sua gaveta entreaberta.\n\nColoque um marcador de busca como indicado.
+Token06_Journal.button1,{action} Procurar
+Event06_SmithExtratoJournal.button1,Continue
+Token06_Journal.text,Uma gaveta que poderia ser trancada com chave, mas não está.
+Event06_removeBuscaJournal.text,Você abre a gaveta e começa a tirar os papéis e artigos. A última coisa debaixo de toda a papelada é um diário antigo. Você o guarda para ler oportunamente...\n\nReceba o item {c:QItem06_Journal} e remova este marcador de busca.
+Event06_removeBuscaJournal.button1,Continue
+Event06_InspectJournal.text,Você abre o diário que pensa ser do Professor Smith. Não há etiqueta ou anotação de nome algum. A escrita está em outra língua, cuja origem você certamente não faz ideia qual seja...
+Event06_InspectJournal.button1,{action} Ler
+Event06_JournalIlegivel.text,Você não consegue reconhecer absolutamente nada... Parece uma escrita baseada em runas: vermelhas, roxas, verdes e azuis, cada qual com simbologia própria.\n\nGanhe 1 pista {clue}.
+Event06_JournalIlegivel.button1,Continue
+Event06_JournalExtrato.text,Você folheia o diário e fica mesmerizado com a escrita baseada em runas com simbologia e cores diversas (vire 1 horror para baixo ou remova 1 horror voltado para baixo).\n\nO texto lhe transporta para outra dimensão, em um lugar onde o tempo parece passar diferente. Parece que você não tem mais um corpo físico. \n\nVocê tenta se agarrar à realidade (teste {will}; 2). Se FALHAR, descarte 1 pista.
+Event06_JournalExtrato.button1,Continue
+Event03a_TalkP1_R2.text,"""<i>Meu caro, meus clientes não possuem nomes. Apenas necessidades... Vai querer ver o material ou não?</i>"""
+Token03a_Person1b.button1,{action} Comprar um soro intensificador
+Token03a_Person1b.button2,{action} Comprar garrafa de café
+Token03a_Person1b.button3,{action} Comprar um elixir
+Event03_BuyEnhancingSerum.text,"""<i>Boa escolha!</i>"", ele diz, antes de lhe entregar um pequeno frasco dissimuladamente.\n\n""<i>Agora é melhor eu sair daqui, nunca é bom abusar da sorte. Te vejo pela vida!</i>""\n\nReceba o item {c:QItem03_serum} e remova este marcador de pessoa.\n\nLEMBRE-SE: Você precisa descartar 1 pista {clue} para comprar este produto."
+Event03_BuyEnhancingSerum.button1,Continue
+Event03_BuyThermos.text,"""<i>Um cafezinho sempre vai bem... Esse aqui então!</i>""\n\nO homem lhe dá uma garrafa térmica e se despede, deixando-se à disposição para negócios futuros...\n\nReceba o item {c:QItem03_thermos} e remova este marcador de pessoa do jogo."
+Event03_BuyThermos.button1,Continue
+Token03a_Person1b.text,"Cada produto comprado <b>custa 1 pista {clue}</b>. O homem tem pressa:\n\n""<i>Vamos, vamos. Escolha logo o que você quer que eu tenho que sair daqui antes que dê alguma confusão...</i>"""
+Event03_BuyElixir.button1,Continue
+Event03a_TalkP1_R1.button1,Comprar cantil
+Event03_BuyElixir.text,"<i>Esses elixires costumam ser muito bons. Compro eles de uma pesquisadora da Alquimia. Garanto que você terá a vantagem que eles dão, mas preciso lhe avisar: alguns podem ter efeitos colaterais indesejados...</i>""\n\nO homem lhe entrega o produto e se despede apressadamente.\n\nLEMBRE-SE: Você precisa descartar 1 pista {clue} comprar este produto.\n\nReceba o item {c:QItem03_elixir} e remova este marcador de pessoa do jogo."
+Event03a_TalkP1_R1.text,"""<i>Produtos naturais para aumentar sua capacidade mental...</i>""\n\nVocê poderá comprar apenas um produto, pois o homem tem pressa. Cada produto à venda <b>custa 1 pista {clue}</b>."
+Event03_BuyFlask.button1,Continue
+Event03_BuyElixir0.button1,Continue
+Event03a_TalkP1_R1.button2,Comprar elixir
+Event03a_TalkP1_R1.button3,Comprar suco da mutação
+Event03a_TalkP1_R1.button4,Comprar garrafa de café
+Event03_BuyFlask.text,<i>Excelente escolha!</i>\n\nReceba o item {c:QItem03_flask} e remova este marcador de pessoa do jogo.
+Event03_BuyJuice.button1,Continue
+Event03_BuyElixir0.text,<i>Excelente escolha, mas sempre sou sincero com meus clientes: sua vantagem será garantida, porém, não é garantido que um efeito colateral venha de brinde!</i>\n\nReceba o item {c:QItem03_elixir} e remova este marcador de pessoa do jogo.
+Event03_BuyThermos0.text,<i>Quando que um cafézinho não vai bem?</i>\n\nO homem pisca para você, lhe entrega a garrafa térmica e se despede.\n\nReceba o item {c:QItem03_thermos} e remova este marcador de pessoa do jogo.
+Event03_BuyJuice.text,<i>Ótima escolha! Cuidado para não viciar...</i>\n\nReceba o item {c:QItem03_juice} e remova este marcador de pessoa do jogo.
+Event03_BuyThermos0.button1,Continue
+Event03a_TalkP1_R2.button1,Ver produtos
+Event03a_TalkP1_R2.button2,Deixar para lá...
+Event03_person1b_Mostra.text,"O homem pega uma sacola de tecido debaixo do banco e lhe mostra...\n\n""<i>São produtos naturais que aumentam sua capacidade mental. Vale a pena. Quem compra uma vez, volta...</i>""\n\nClique no marcador de pessoa para escolher o produto que quer comprar."
+Event03_person1b_Mostra.button1,Continue
+Event03_RemoveExpl2.text,A porta se abre com um leve rangido. A biblioteca é pública e funciona 24 horas por dia, 7 dias por semana. Algumas luzes estão acesas e o silêncio é sepulcral. Tudo está muito organizado, afinal, esta é a Biblioteca Orne, a mais importante biblioteca de Arkham. Há mesas e poltronas confortáveis para leitura. \n\nRemova este marcador de exploração e coloque a peça {c:Tile07_bibliotecaUniversitaria}.\n\nVocê pode se mover 1 espaço para dentro da biblioteca.
+Event03_RemoveExpl2.button1,Continue
+Token07_View1.text,Uma porta de correr com uma placa onde se lê:\n\n<b>Anexo da Biblioteca</b>
+Token07_View1.button1,Revelar
+Event07_Student1.text,Na poltrona visível mais confortável, um estudante tira um cochilo.\n\nColoque o marcador de pessoa azul como indicado.
+Event07_Student1.button1,Continue
+Event07_View1.text,Após as primeiras estantes de livro e poltronas, há uma porta de correr à esquerda.\n\nColoque um marcador de avistamento como indicado.
+Event07_View1.button1,Continue
+Event07_Wall1.button1,Continue
+Event07_Wall1.text,Coloque uma parede como indicado.
+Event07_Wall2.text,Coloque outra parede como indicado.
+Event07_Wall2.button1,Continue
+Event07_BuscaExtrato.text,Você ainda sente um pouco dos efeitos do extrato que tomou no Museu (teste {observation}; 2).
+Event07_BuscaExtrato.button1,PASSOU!
+Event07_BuscaExtrato.button2,FALHOU...
+Token07_BuscaExtrato.button1,{action} Procurar
+Event07_removeBuscaExtrato.text,Você não resiste à urgência e puxa o livro da estante. Instintivamente, você abre em uma página. Nela, há instruções para se aprender um feitiço. \n\nGanhe o item {c:QItem07_Spell} e remova este marcador de busca.
+Event07_BuscaExtrato_SUCCESS.text,A estante brilha em uma miríade de cores indistinguíveis.\n\nColoque um marcador de busca como indicado.
+Event07_BuscaExtrato_SUCCESS.button1,Continue
+Token07_BuscaExtrato.text,Um livro parece brilhar mais do que os outros...
+Event07_removeBuscaExtrato.button1,Continue
+Event07_BuscaExtrato_FAIL.text,Por um instante, você teve a impressão de que algo brilhava na estante. Tal pensamento logo some de sua mente e é substituído pela imagem de Grace Bechman lhe suplicando para ajudar a encontrar sua filha desaparecida...
+Event07_BuscaExtrato_FAIL.button1,Continue
+Event07_Person2.text,Atrás da mesa de empréstimos fica a bibliotecária.\n\nColoque o marcador de pessoa roxa como indicado.
+Event07_Person2.button1,Continue
+Token07_Person2.button1,Button1
+Event07_RemoveView1.text,Você desliza a porta de correr e dá de cara com o anexo da biblioteca. Mais estantes abarrotadas de tomos antigos e livros com capa de couro.\n\nColoque a peça de mapa {c:Tile08_arquivosBiblioteca} e remova este marcador de avistamento.
+Event07_RemoveView1.button1,Continue
+Event08_BuscaExtrato.text,Você mal entra no anexo e não pode deixar de notar o brilho púrpura na estante. Um livro envolto em uma cor tão maravilhosa que você fica mesmerizado só de saber de sua existência. Você sente um poder arcano fluir por todo o seu corpo. Fique <b>justo</b>.\n\nColoque um marcador de busca como indicado.
+Event08_BuscaExtrato.button1,Continue
+Token08_BuscaExtrato.text,Um livro com capa de couro emitindo um brilho sobrenatural...
+Token08_BuscaExtrato.button1,{action} Procurar
+Event08_removeBuscaExtrato.text,Você pega o livro nas mãos. Ele parece se conectar diretamente com sua alma. Um sentimento inexplicável lhe invade. Você se comunica com o universo.\n\n<i>Todos somos um</i>... \n\nAs palavras ecoam em sua mente em uma língua forânea.\n\nReceba 1 pista {clue} e o livro {c:QItem08_Necronomicon}.\n\nRemova este marcador de busca.
+Event08_removeBuscaExtrato.button1,BZZZZZZT!
+Event08_Busca1.text,Esta sala contém os livros mais antigos e únicos da biblioteca.\n\nColo	que um marcador de busca como indicado.
+Event08_Busca1.button1,Continue
+Token08_Busca1.text,Vários tomos antigos estão cuidadosamente ordenados nesta estante.
+Token08_Busca1.button1,{action} Procurar
+Event08_removeBusca1.text,"Um livro em especial lhe chama a atenção. É uma edição encadernada com capa dura e de nome ""Feitiços modernos do Oeste"".\n\nReceba o feitiço {c:QItem08_AtkSpell} e remova este marcador de busca."
+Event08_removeBusca1.button1,Continue
+Event08_RossDesconfiado.text,Estantes de livros perfeitamente organizadas guardam tomos antigos. Um conjunto de papéis desorganizados destoa do ambiente.\n\nColoque um marcador de busca como indicado.
+Event08_RossDesconfiado.button1,Continue
+Token08_Busca2.text,Páginas arrancadas de um livro estão sobre um aparador ao lado direito da porta de correr.
+Token08_Busca2.button1,{action} Procurar
+Event08_removerBusca2.text,Você pega as páginas em suas mãos e as lê atentamente (teste {lore}; 2).
+Event08_removerBusca2.button1,PASSOU!
+Event08_removerBusca2.button2,FALHOU...
+Event08_Busca2_SUCCESS.text,Esta língua arcana é simplesmente latim! Ao se lembrar de algumas palavras, você identifica um feitiço.\n\nReceba o item {c:QItem08_Spell} e descarte este marcador de busca.
+Event08_Busca2_SUCCESS.button1,Continue
+Event08_Busca2_FAIL.text,Lembra latim, ou grego. Na verdade, lembra qualquer coisa que você não faz a mínima ideia do que seja. É, você está ficando enferrujado...\n\nSofra 1 horror voltado para baixo e remova este marcador de busca.
+Event08_Busca2_FAIL.button1,Continue
+Event08_placeRossDesconfiado.text,Do outro lado do anexo, um homem está de pé, contemplando o nada...\n\nColoque o marcador de pessoa amarela e 2 paredes como indicado.
+Event08_placeRossDesconfiado.button1,Continue
+Event08_RossRachel.text,Duas pessoas conversam alegremente, sem se importar com o requisito de silêncio da biblioteca. Como ambos estão sozinhos no recinto, ninguém se incomoda com a falta de etiqueta.\n\nColoque os marcadores de pessoas laranja e amarelo como indicado.
+Event08_RossRachel.button1,Continue
+Event07_TalkReceipt.text,"Você retira o recibo de empréstimo que encontrou no quarto de Gwen e mostra para a bibliotecária...\n\n""<i>Com licença, Srta. Allen. Você pode me informar que livro é esse?</i>"""
+Event07_TalkReceipt.button1,Continue
+Event07_Person2_R1.text,"Sem dar muita atenção, ela pega o papel na mão e lhe olha de cima a baixo.\n\n""<i>Quem quer saber?</i>"", ela lança no ar...\n\nTeste {influence} (2)."
+Event07_Person2_R1.button1,PASSOU!
+Event07_Person2_R1.button2,FALHOU...
+Event07_Person2R2_SUCCESS.button1,Continue
+Event07_Person2R2_FAIL.text,"""<i>Me dê aqui essa ficha de empréstimo. Pelo seu modo de falar, imagino que você não tenha nem mesmo uma carteirinha de membro da biblioteca. Agora, silêncio.</i>""\n\nVocê fica sem entender a atitude, mas Srta. Allen toma a ficha de empréstimo de sua mão e fecha a cara."
+Token07_Person2b.button1,Continue
+Event07_Person2R2_SUCCESS.text,"Você inventa uma história acadêmica qualquer toda enrolada e cheia de ramificações que acaba por tirar a paciência da Srta. Allen.\n\n""<i>Olha, eu tenho mais o que fazer do que fofocar sobre seus dramas. O livro que você procura está ali naquela sala. Agora por favor, me deixe trabalhar...</i>""\n\nEla aponta para o anexo da biblioteca."
+Token07_Person2b.text,Na menor menção de interrupção de suas atividades, Srta. Allen olha friamente e coloca o dedo indicador em frente à boca para lhe impedir de quebrar o silêncio do local.
+Event07_Person2R2_FAIL.button1,Continue
+Event07_Talk_NoReceipt_ALL.button1,{action} Perguntar sobre o Prof. Geller
+Event07_Person2_P2.button1,Perguntar sobre o livro
+Event07_TalkPerson2_Receipt.text,Você se lembra do recibo de empréstimo que achou no quarto de Gwen e percebe que talvez seja uma boa hora para descobrir qual é o livro que ela emprestou por tantas vezes...
+Event07_Person2_P2.text,"""<i>Com licença, você conhece uma estudante chamada Gwen Bechman? É uma moça loura, discreta, de feições...</i>""\n\nVocê é interrompido pela Srta. Allen antes de terminar sua descrição:\n\n""<i>Sei quem é, não a vejo desde 2a-feira. Ela estava com um livro atrasado e, quando veio devolver, lembro-me de ela estar diferente da garota entusiasmada que costuma ser. Não conversou, apenas devolveu o livro e saiu apressada... Fiquei realmente preocupada, mas você sabe... jovens dessa idade passam por uma montanha-russa de emoções.</i>"""
+Event07_Talk_NOReceipt.button1,{action} Perguntar sobre o Prof. Geller
+Event07_Talk_NOReceipt.button2,{action} Perguntar sobre Gwen
+Event07_TalkPerson2_Receipt.button1,{action} Perguntar
+Event07_Person2_P1.text,"""<i>Preciso falar com o Prof. Geller urgente, mas não sei como ele se parece. Você poderia descrevê-lo para mim, por favor?</i>"", você lança a pergunta, sem rodeios.\n\nA mulher parece ter apreciado sua objetividade: ""<i>Ele está ali no anexo neste exato momento.</i>"" \n\nSrta. Allen aponta para a porta atrás de você, à direita dela. Ganhe 1 pista {clue}."
+Event07_Person2_P1.button1,Continue
+Event07_Talk_NOReceipt.text,Você resolve puxar papo com a mulher visando descobrir qualquer nova informação que seja...
+Event07_Person2_P2b.text,"""<i>Um livro fantasioso que dizem ser antigo, mágico e etc. Faz parte da cultura de Arkham armar um circo sobre essas mitologias. Na verdade, o livro é um fac-símile do original. Eu acho que tudo não passa de uma farsa editorial para chamar a atenção e ganhar mais dinheiro. Chamam este livro de Necronomicon. Se não estiver emprestado, o livro fica no anexo, na prateleira logo em frente à porta...</i>""\n\nGanhe 1 pista {clue}."
+Event07_Person2_P2b.button1,Continue
+Event07_TalkNoRecP1_USED.button1,{action} Perguntar sobre Gwen
+Event07_TalkNoRecP2_USED.button1,{action} Perguntar sobre o Prof. Geller
+Event07_Talk_NoReceipt_ALL.text,"A bibliotecária está compenetrada lendo um livro. Em seu crachá, é possível ver seu nome escrito: \n\n""Srta. Allen"""
+Event07_TalkNoRecP1_USED.text,Como Srta. Allen se mostrou receptiva, talvez valha a pena dar continuidade à conversa...
+Event07_TalkNoRecP2_USED.text,Como Srta. Allen se mostrou receptiva, talvez valha a pena dar continuidade à conversa...
+Event07_TalkPerson2_NOopt.text,Srta. Allen volta ao trabalho...
+Event07_TalkPerson2_NOopt.button1,Continue
+Event07_Talk_NoReceipt_ALL.button2,{action} Perguntar sobre Gwen
+Event07_Talk_NoReceipt_ALL.button3,Não perguntar nada.
+Event07_TalkNoRecP1_USED.button2,Não perguntar nada.
+Event07_TalkNoRecP2_USED.button2,Não perguntar nada.
+Token08_RossDesconfiado.text,O homem te encara com um olhar cínico... Ele está muito bem vestido, com o cabelo engomado e o bigode perfeitamente aparado. Sua aparência é a de um jovem professor, na faixa dos 40 anos.
+Event08_placeNecronomicon.text,Se a Srta. Allen estiver certa, o Necronomicon deve estar em algum lugar nesta prateleira.\n\nColoque o marcador de busca como indicado.
+Token08_RossDesconfiado.button1,{action} Perguntar sobre Gwen
+Event08_RossDesconfiadoP1.text,"Você pergunta se ele conhece Gwen e se sabe de algo sobre o paradeiro dela. Sem pestanejar, Prof. Geller lhe responde:\n\n""<i>Meu caro, sei que está havendo uma investigação por aqui, mas não sei se poderei ser de muita utilidade. Entretanto, estou à disposição para auxiliar no que for preciso. Sente-se aqui, vamos conversar.</i>""\n\nEle lhe mostra a poltrona e puxa a cadeira para que você sente, em um ato de gentileza."
+Event08_RossDesconfiadoP1.button1,Continue
+Event08_RossDesconfiadoP2.text,Você agradece a gentileza e se prepara para sentar, quando vê o homem tirar algo do bolso e levar em direção ao seu ombro (teste {agility}; 1).
+Event08_RossDesconfiadoP2.button1,PASSOU!
+Event08_RossDesconfiadoP2.button2,FALHOU...
+Event08_RossDesconfiado_SUCCESS.text,"Instintivamente, você estapeia a mão dele e vê uma seringa cair no chão. Prof. Geller iria lhe aplicar algo. Surpreendido pelos seus reflexos, o homem fica confuso. Você o questiona: <i>O que é isto? Você ia me drogar?</i>\n\nProf. Geller, cinicamente lhe responde: ""<i>Você não é diferente daquela garota insolente, tampouco tem ideia do movimento que está acontecendo. Uma vez que o processo se iniciou, é imparável. Um conselho, meu caro: não se intrometa na agenda do oculto...</i>""\n\nVocê tenta agarrá-lo em vão, pois ele desaparece como se nunca estivesse ali...\n\nGanhe 1 pista {clue} e remova o marcador de pessoa do Prof. Geller do jogo."
+Event08_RossDesconfiado_SUCCESS.button1,Continue
+Event04_DinoCLOSED.text,Impossível identificar essas cores, tampouco descrevê-las. É hipnotizante. Você não tem condições mentais para ficar observando-as (teste {will}; 2). \n\nSe PASSAR, você desvia o olhar e pensa que talvez ainda não seja o momento de interferir no que quer que esteja acontecendo ali. Se FALHAR, sofra 1 horror.
+Event04_DinoCLOSED.button1,Continue
+Event04_DinoOPEN.text,A fenda crepita e aumenta de tamanho. Do outro lado, uma miragem parece estar se formando...
+Event04_DinoOPEN.button1,Observar do outro lado da fenda
+Event08_abreInter1em04.text,Ao tocar o livro, um choque percorre todo o seu corpo. Primeiro, você se sente picado por milhares de agulhas, depois, parece que seu corpo derreteu e se juntou ao ambiente. Por último, seu espírito parece congregar com tudo o que existe e o que parecia não existir. \n\nAlgo na estrutura dessa dimensão mudou, mas você não sabe o que, nem como descobriu isso. Você apenas sabe...
+Event08_abreInter1em04.button1,Continue
+Event08_RossDesconfiado_FAIL.text,"A picada é mais rápida do que seus reflexos. Você cai sentado na cadeira. \n\nFique <b>desnorteado</b>.\n\nProfessor Geller observa meticulosamente seus movimentos para se certificar de que a droga fez efeito, então emenda:\n\n""<i>Mais um que não vai me incomodar. Quando você olha o abismo, meu caro, ele lhe olha de volta..</i>."
+Event08_RossDesconfiado_FAIL.button1,Continue
+Event08_RossDesconfiado_Spawn.text,Os olhos do Professor Geller perdem o brilho, como se somente sua carcaça estivesse ali. O corpo dele começa a tremer incontrolavelmente. Você não sabe se está delirando ou se isso está realmente acontecendo, mas o medo que você sente é bem real.\n\nDe repente, o corpo do Professor se rasga e em seu lugar, aparece uma fenda. Dela emerge uma criatura inimaginável e a fenda logo se fecha.\n\nRemova o marcador do Professor Geller do jogo.
+Event08_RossDesconfiado_Spawn.button1,Continue
+Spawn08_StarVampire.text,A criatura é tão surreal que você não consegue nem ficar horrorizado...\n\nFaça surgir um Vampiro Estelar como indicado.
+Spawn08_StarVampire.button1,Continue
+Event04_Inter1_Fenda.text,Você olha para dentro da fenda e parece que tudo está sobreposto. A única coisa que você consegue distinguir é névoa e escuridão...
+Event04_Inter1_Fenda.button1,Continue
+Event04_Inter1_FendaCLOSED.text,Talvez o melhor seja investigar mais para entender o que está acontecendo...
+Event04_Inter1_FendaCLOSED.button1,Continue
+Event04_Inter1_FendaOPEN.text,Não há nada mais a fazer a não ser entrar na fenda. Depois de tudo o que aconteceu, é a única coisa que faz sentido no meio de toda essa loucura...
+Event04_Inter1_FendaOPEN.button1,Continue
+Token07_Estudante1.text,O rapaz está tirando um cochilo na poltrona.
+Token07_Estudante1.button1,{action} Acordá-lo
+Event07_TalkStudent_WakeUp.button1,Continue
+Token07_StudentAwake.text,O rapaz pisca frenéticamente e conta os próprios dedos das mãos, repetidamente. Você fica sem ação.
+Event07_TalkStudent_WakeUp.text,Você chega mais perto dele e pousa sua mão no ombro do rapaz para não assustá-lo...
+Token07_StudentAwake.button1,{action} Estapeá-lo
+Event07_TalkStudentALL.text,"Ele acorda aborrecido, mas educadamente lhe pergunta o que você quer. Você pergunta se ele conhece Gwen.\n\n""<i>Gwen Bechman, a queridinha dos professores? Todos a conhecem... Se bem que ela deu uma sumida. Talvez o Prof. Geller saiba do paradeiro dela, afinal, eles estavam trabalhando juntos para decodificar uma parte do Necrono...</i>""\n\nAntes de terminar a frase, o jovem fica lívido. Ele olha para o teto com olhar vazio.\n\nGanhe 1 pista {clue}."
+Event07_TalkStudentALL.button1,Continue
+Token07_StudentAwake.button2,{action} Sacudí-lo
+Token07_StudentAwake.button3,{action} Dar bebida (item: Whisky, Cantil ou Thermos))
+Event07_Student1_Slap.text,Você tenta tirá-lo do frenesi dando-lhe uma bofetada. O rapaz arregala os olhos e te empurra (teste {agility}; 1). Se falhar, você cai no chão. Sofra 1 dano voltado para baixo.\n\nEle se levanta e sai correndo da sala, olhando por sobre os ombros assustado em sua direção.\n\nRemova o marcador de pessoa azul do jogo.
+Event07_Student1_Slap.button1,Continue
+Event07_Student1_Shake.text,"Imaginando que ele tenha alguma condição ou tenha entrado em transe, você resolve sacudí-lo.\n\n""<i>Recomponha-se, jovem!</i>"", você diz enquanto o chacoalha.\n\nEle se levanta bruscamente, com os olhos arregalados te encarando, e de repente, emite um som gutural bem perto do seu rosto (teste {will}; 1). Se falhar, você perde a compostura e se assusta. Sofra 1 horror voltado para baixo.\n\nO rapaz corre gritando para fora da biblioteca. Remova o marcador de pessoa azul do jogo."
+Event07_Student1_Shake.button1,Continue
+Event07_Student1_Drink.text,"Você dá um gole de bebida para ele, na tentativa de acalmá-lo. Ele te olha confuso: ""<i>Quem é você? O que quer de mim?<i>""</i></i>\n\nVocê explica a situação e volta a perguntar sobre o Necronomicon.\n\n""<i>Não é um livro, é uma sentença de morte...</i>""\n\nAo dizer isso, o jovem rapaz sofre o que parece ser um infarto fulminante e cai para trás na cadeira, com os olhos abertos vidrados.\n\nSofra 1 horror."
+Event07_Student1_Drink.button1,Continue
+Token07_Student_Dead.text,O cadáver de um jovem com o qual você mal acabou de conversar.
+Token07_Student_Dead.button1,{action} Inspecionar
+Event07_Student1_Dead_Loot.text,Não há tempo para ética uma hora dessas. Você vasculha o paletó do defunto e encontra uma arma de fogo! Quem precisaria vir armado para a Universidade?\n\nGanhe o item {c:QItem07_Student_Dead}.
+Event07_Student1_Dead_Loot.button1,Continue
+Token07_Student1_Dead_Loot2.text,O jovem cadáver te encara com um olhar sem brilho.
+Token07_Student1_Dead_Loot2.button1,{action} Fechar os olhos do rapaz
+Event07_Student1_Dead_Rest.button1,Continue
+Event07_Student1_Dead_Rest.text,O mínimo que você pode fazer é fechar os olhos do rapaz para que ele fique em estado digno. Ao fazê-lo, você se sente melhor consigo mesmo.\n\nVire 1 horror para baixo e remova 1 horror voltado para baixo.
+Token07_Student1_Dead_Rest.text,O rapaz está com a mesma aparência que você o encontrou, ele parece estar dormindo...
+Token07_Student1_Dead_Rest.button1,Continue
+Token08_Ross.text,O homem conversa animadamente com a jovem moça.
+Token08_Ross.button1,Button1
+Event08_RossALL.button1,{action} Peguntar sobre Gwen
+Event08_RossALL.button2,{action} Perguntar sobre a pesquisa dele
+Event08_RossALL.text,O homem conversa animadamente com a jovem moça.
+Event08_Ross_Q1_USED.button1,Continue
+Event08_Ross_Q2_USED.text,"Como todo acadêmico, Prof. Geller se empolga ao falar do próprio trabalho:\n\n""<i>Tem certos colegas que se prendem ao oculto materializado em artefatos, mas quem enfeitiçou tais objetos? Como? Minha pesquisa é muito maior: vou direto à ciência por trás desses objetos encantados. Muitos deles são incompreendidos pelos ignorantes e são considerados amaldiçoados, mas a realidade é outra. O próprio Necronomicon, por exemplo, é considerado o livro dos mortos. Bobagens! Não é nada disso...</i>"""
+Event08_Ross_Q1_PASSED.text,"Prof. Geller parece acreditar que seus questionamentos têm boa intenção e resolve colaborar:\n\n""<i>Veja, a srta. Bechman estava desorientada. Tentei recolocá-la no trilho certo e ajudá-la a compreender alguns mistérios que nos permeiam. O que os iletrados chamam de magia na verdade é pura ciência. Apenas não é a ciência que conhecemos na Terra... Pois bem, confiei na garota, mas ela estava por demais obcecada com o oculto, demônios antigos e possessões. Há coisas que fogem da nossa compreensão, precisamos apenas aceitar. Dito isso, ela não precisava me roubar anos de pesquisa e desaparecer...</i>""\n\nGanhe 1 pista {clue}."
+Event08_Ross_Q1_PASSED.button1,Continue
+Event08_Ross_Q1_FAILED.text,"""<i>Sou suspeito de algo? Eu é que fui lesado por aquela garota. Não se rouba o trabalho da vida de uma pessoa assim...</i>"""
+Event08_Ross_Q1_FAILED.button1,Continue
+Event08_Ross_Q2.button1,{action} Perguntar sobre a pesquisa dele
+Event08_Ross_Q2_USED.button1,Continue
+Event08_Ross_Q1.button1,{action} Peguntar sobre Gwen
+Event08_Ross_Q2b.text,"Prof. Geller continua:\n\n""<i>Todos os que morreram devido a ele foi porque não souberam manipulá-lo adequadamente. Veja, após anos de pesquisa, o que aprendi é que o Necronomicon deveria se chamar o livro da vida. Passar para outra dimensão, sem as mazelas do corpo terreno não é morrer. A única coisa que a ciência contida no Necronomicon pode matar é a própria morte, esteja certo disso. Pois bem, eu descobri que o alinhamento de certos astros influencia o modo como o tecido multidimensional do universo está cerzido. Quando dimensões se sobrepõem, abrem-se portais. É por ali que somos visitados. Ignorantes os chamam de demônios, mas são apenas criaturas de universos longínquos, muito mais avançadas do que nós...</i>""\n\nSem te dar a oportunidade de replicar, o Professor não se preocupa em parar de falar:"
+Event08_Ross_Q2b.button1,Continue
+Event08_Ross_Q2c.text,"""<i>Em minha pesquisa, descobri como manipular esses portais multidimensionais, ou fendas. Entretanto, a manipulação errada dessas fendas é por demais perigosa. Veja, se o procedimento errado for aplicado a uma fenda, uma catástrofe pode acontecer. Se juntarmos isso ao fato de que o Necronomicon pode ter papel preponderante no sucesso ou fracasso de uma viagem interdimensional, o cuidado deve ser redobrado. Por isso, dado que você está investigando o sumiço de Gwen, lhe peço a gentileza de que, quando encontrá-la, devolva-me minhas anotações.</i>""\n\nGanhe 1 pista {clue}.\n\nVocê se despede do Prof. Geller. Antes dele se levantar e sair, ele emenda:\n\n""<i>Lembre-se: Morto não está o que pode eternamente jazer. E com éons estranhos, até a morte pode morrer!</i>""\n\nRemova o marcador do Prof. Geller do jogo.\nRemova o mar"
+Event08_Ross_Q2c.button1,Continue
+Event08_Ross_Q1_USED.text,Você conta sobre a investigação atual, os eventos que o levaram até aqui e o que descobriu até o momento. O Professor não compra sua história.\n\nTeste {influence}.
+Event08_Ross_NoOPT.button1,Desculpe, não é nada...
